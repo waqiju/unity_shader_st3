@@ -42,14 +42,11 @@ contexts:
           set: subshader
     # for *.cginc
     - match: (?=(#)[\s]*(pragma|include|ifdef|ifndef|if|elif|else|endif|define))
-      push: c.sublime-syntax
-      with_prototype:
-        - include: cg_context
+      push: unityshader-cg.sublime-syntax
     - match: CGINCLUDE
-      push: c.sublime-syntax
+      push: unityshader-cg.sublime-syntax
       scope: keyword.control.shader
       with_prototype:
-        - include: cg_context
         - match: (?=ENDCG)
           pop: true
 
@@ -69,22 +66,11 @@ contexts:
       scope: keyword.control.shader
     - match: CGPROGRAM|CGINCLUDE
       scope: keyword.control.shader
-      push: c.sublime-syntax
+      push: unityshader-cg.sublime-syntax
       with_prototype:
-        - include: cg_context
         - match: (?=ENDCG)
           pop: true
     - match: "{"
       push: subshader
     - match: "}"
       pop: true
-
-  cg_context:
-    # CG Veriables Type
-    - match: \b(((float|half|fixed)[2-4]?)|sampler(CUBE|[23]D))\b
-      scope: storage.type.shader
-    - match: \b(uniform)\b
-      scope: storage.modifier.shader
-    # this is a approximate
-    - match: (in|out|inout)(?=\b.*[,\)])
-      scope: storage.modifier.shader
