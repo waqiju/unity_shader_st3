@@ -5,6 +5,8 @@ import json
 from .generateSymbolList import Symbol
 
 symbalMapFile = r"C:\Users\Administrator\AppData\Roaming\Sublime Text 3\Packages\UnityShader\buildin_shader.symbol"
+
+symbolMap = {}
 def init():
     print("init start")
     symbolMap.clear()
@@ -15,7 +17,7 @@ def init():
     for i in symbolList:
         name = i.name
         if not symbolMap.get(name):
-            symbolMap[name] = symbolList[0]
+            symbolMap[name] = i
 
     print(len(symbolMap))
 
@@ -42,5 +44,6 @@ class ShaderGotoDefinitionCommand(sublime_plugin.TextCommand):
 
     def gotoDefinition(self, symbol):
         print("gotoDefinition")
+        print(symbol.path)
         definitionView = self.view.window().open_file(symbol.path + ":" + str(symbol.pos[0]), sublime.ENCODED_POSITION)
         definitionView.set_read_only(True)
