@@ -61,6 +61,7 @@ def generateDefineList(symbolList):
             for i in functionIter:
                 name = i.group(1)
                 path = os.path.join(root, filename)
+                path = path.replace(pluginRootPath+"\\", "")
                 lineNo = len(re.findall(r".*\n", buf[0:i.start()])) + 1
                 columnNo = re.search(i.group(1), i.group(0)).start()
                 pos = (lineNo, columnNo)

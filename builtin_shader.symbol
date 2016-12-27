@@ -1,4556 +1,4556 @@
 [
     {
+        "type": "builtin-function",
         "pos": [
             49,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-function",
         "name": "unitySampleShadow"
     },
     {
+        "type": "builtin-function",
         "pos": [
             74,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-function",
         "name": "unitySampleShadow"
     },
     {
+        "type": "builtin-function",
         "pos": [
             134,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-function",
         "name": "UnitySpotCookie"
     },
     {
+        "type": "builtin-function",
         "pos": [
             138,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-function",
         "name": "UnitySpotAttenuate"
     },
     {
+        "type": "builtin-function",
         "pos": [
             176,
             8
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\HLSLSupport.cginc",
-        "type": "builtin-function",
         "name": "tex1D"
     },
     {
+        "type": "builtin-function",
         "pos": [
             177,
             8
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\HLSLSupport.cginc",
-        "type": "builtin-function",
         "name": "tex2D"
     },
     {
+        "type": "builtin-function",
         "pos": [
             178,
             8
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\HLSLSupport.cginc",
-        "type": "builtin-function",
         "name": "tex2D"
     },
     {
+        "type": "builtin-function",
         "pos": [
             179,
             8
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\HLSLSupport.cginc",
-        "type": "builtin-function",
         "name": "tex3D"
     },
     {
+        "type": "builtin-function",
         "pos": [
             180,
             8
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\HLSLSupport.cginc",
-        "type": "builtin-function",
         "name": "texCUBE"
     },
     {
+        "type": "builtin-function",
         "pos": [
             182,
             8
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\HLSLSupport.cginc",
-        "type": "builtin-function",
         "name": "tex1Dbias"
     },
     {
+        "type": "builtin-function",
         "pos": [
             183,
             8
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\HLSLSupport.cginc",
-        "type": "builtin-function",
         "name": "tex2Dbias"
     },
     {
+        "type": "builtin-function",
         "pos": [
             184,
             8
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\HLSLSupport.cginc",
-        "type": "builtin-function",
         "name": "tex2Dbias"
     },
     {
+        "type": "builtin-function",
         "pos": [
             185,
             8
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\HLSLSupport.cginc",
-        "type": "builtin-function",
         "name": "tex3Dbias"
     },
     {
+        "type": "builtin-function",
         "pos": [
             186,
             8
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\HLSLSupport.cginc",
-        "type": "builtin-function",
         "name": "texCUBEbias"
     },
     {
+        "type": "builtin-function",
         "pos": [
             188,
             8
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\HLSLSupport.cginc",
-        "type": "builtin-function",
         "name": "tex1Dlod"
     },
     {
+        "type": "builtin-function",
         "pos": [
             189,
             8
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\HLSLSupport.cginc",
-        "type": "builtin-function",
         "name": "tex2Dlod"
     },
     {
+        "type": "builtin-function",
         "pos": [
             190,
             8
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\HLSLSupport.cginc",
-        "type": "builtin-function",
         "name": "tex2Dlod"
     },
     {
+        "type": "builtin-function",
         "pos": [
             191,
             8
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\HLSLSupport.cginc",
-        "type": "builtin-function",
         "name": "tex3Dlod"
     },
     {
+        "type": "builtin-function",
         "pos": [
             192,
             8
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\HLSLSupport.cginc",
-        "type": "builtin-function",
         "name": "texCUBElod"
     },
     {
+        "type": "builtin-function",
         "pos": [
             194,
             8
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\HLSLSupport.cginc",
-        "type": "builtin-function",
         "name": "tex1Dgrad"
     },
     {
+        "type": "builtin-function",
         "pos": [
             195,
             8
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\HLSLSupport.cginc",
-        "type": "builtin-function",
         "name": "tex2Dgrad"
     },
     {
+        "type": "builtin-function",
         "pos": [
             196,
             8
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\HLSLSupport.cginc",
-        "type": "builtin-function",
         "name": "tex2Dgrad"
     },
     {
+        "type": "builtin-function",
         "pos": [
             197,
             8
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\HLSLSupport.cginc",
-        "type": "builtin-function",
         "name": "tex3Dgrad"
     },
     {
+        "type": "builtin-function",
         "pos": [
             198,
             8
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\HLSLSupport.cginc",
-        "type": "builtin-function",
         "name": "texCUBEgrad"
     },
     {
+        "type": "builtin-function",
         "pos": [
             200,
             8
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\HLSLSupport.cginc",
-        "type": "builtin-function",
         "name": "tex1Dproj"
     },
     {
+        "type": "builtin-function",
         "pos": [
             201,
             8
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\HLSLSupport.cginc",
-        "type": "builtin-function",
         "name": "tex1Dproj"
     },
     {
+        "type": "builtin-function",
         "pos": [
             202,
             8
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\HLSLSupport.cginc",
-        "type": "builtin-function",
         "name": "tex2Dproj"
     },
     {
+        "type": "builtin-function",
         "pos": [
             203,
             8
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\HLSLSupport.cginc",
-        "type": "builtin-function",
         "name": "tex2Dproj"
     },
     {
+        "type": "builtin-function",
         "pos": [
             204,
             8
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\HLSLSupport.cginc",
-        "type": "builtin-function",
         "name": "tex2Dproj"
     },
     {
+        "type": "builtin-function",
         "pos": [
             205,
             8
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\HLSLSupport.cginc",
-        "type": "builtin-function",
         "name": "tex2Dproj"
     },
     {
+        "type": "builtin-function",
         "pos": [
             206,
             8
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\HLSLSupport.cginc",
-        "type": "builtin-function",
         "name": "tex3Dproj"
     },
     {
+        "type": "builtin-function",
         "pos": [
             207,
             8
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\HLSLSupport.cginc",
-        "type": "builtin-function",
         "name": "texCUBEproj"
     },
     {
+        "type": "builtin-function",
         "pos": [
             212,
             7
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\HLSLSupport.cginc",
-        "type": "builtin-function",
         "name": "tex2Dproj"
     },
     {
+        "type": "builtin-function",
         "pos": [
             213,
             7
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\HLSLSupport.cginc",
-        "type": "builtin-function",
         "name": "tex2Dproj"
     },
     {
+        "type": "builtin-function",
         "pos": [
             219,
             7
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\HLSLSupport.cginc",
-        "type": "builtin-function",
         "name": "tex2DprojShadow"
     },
     {
+        "type": "builtin-function",
         "pos": [
             220,
             7
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\HLSLSupport.cginc",
-        "type": "builtin-function",
         "name": "tex2DprojShadow"
     },
     {
+        "type": "builtin-function",
         "pos": [
             223,
             7
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\HLSLSupport.cginc",
-        "type": "builtin-function",
         "name": "tex2DprojShadow"
     },
     {
+        "type": "builtin-function",
         "pos": [
             224,
             7
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\HLSLSupport.cginc",
-        "type": "builtin-function",
         "name": "tex2DprojShadow"
     },
     {
+        "type": "builtin-function",
         "pos": [
             228,
             8
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\HLSLSupport.cginc",
-        "type": "builtin-function",
         "name": "tex2Dproj"
     },
     {
+        "type": "builtin-function",
         "pos": [
             234,
             8
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\HLSLSupport.cginc",
-        "type": "builtin-function",
         "name": "tex2Dproj"
     },
     {
+        "type": "builtin-function",
         "pos": [
             26,
             14
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\Lighting.cginc",
-        "type": "builtin-function",
         "name": "UnityLambertLight"
     },
     {
+        "type": "builtin-function",
         "pos": [
             36,
             14
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\Lighting.cginc",
-        "type": "builtin-function",
         "name": "LightingLambert"
     },
     {
+        "type": "builtin-function",
         "pos": [
             57,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\Lighting.cginc",
-        "type": "builtin-function",
         "name": "LightingLambert_Deferred"
     },
     {
+        "type": "builtin-function",
         "pos": [
             71,
             12
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\Lighting.cginc",
-        "type": "builtin-function",
         "name": "LightingLambert_GI"
     },
     {
+        "type": "builtin-function",
         "pos": [
             79,
             14
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\Lighting.cginc",
-        "type": "builtin-function",
         "name": "LightingLambert_PrePass"
     },
     {
+        "type": "builtin-function",
         "pos": [
             89,
             14
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\Lighting.cginc",
-        "type": "builtin-function",
         "name": "UnityBlinnPhongLight"
     },
     {
+        "type": "builtin-function",
         "pos": [
             105,
             14
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\Lighting.cginc",
-        "type": "builtin-function",
         "name": "LightingBlinnPhong"
     },
     {
+        "type": "builtin-function",
         "pos": [
             126,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\Lighting.cginc",
-        "type": "builtin-function",
         "name": "LightingBlinnPhong_Deferred"
     },
     {
+        "type": "builtin-function",
         "pos": [
             140,
             12
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\Lighting.cginc",
-        "type": "builtin-function",
         "name": "LightingBlinnPhong_GI"
     },
     {
+        "type": "builtin-function",
         "pos": [
             148,
             14
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\Lighting.cginc",
-        "type": "builtin-function",
         "name": "LightingBlinnPhong_PrePass"
     },
     {
+        "type": "builtin-function",
         "pos": [
             174,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\Lighting.cginc",
-        "type": "builtin-function",
         "name": "DirLightmapDiffuse"
     },
     {
+        "type": "builtin-function",
         "pos": [
             33,
             5
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeBillboardCommon.cginc",
-        "type": "builtin-function",
         "name": "SpeedTreeBillboardVert"
     },
     {
+        "type": "builtin-function",
         "pos": [
             55,
             5
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeCommon.cginc",
-        "type": "builtin-function",
         "name": "SpeedTreeVert"
     },
     {
+        "type": "builtin-function",
         "pos": [
             109,
             5
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeCommon.cginc",
-        "type": "builtin-function",
         "name": "SpeedTreeFrag"
     },
     {
+        "type": "builtin-function",
         "pos": [
             52,
             5
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeVertex.cginc",
-        "type": "builtin-function",
         "name": "OffsetSpeedTreeVertex"
     },
     {
+        "type": "builtin-function",
         "pos": [
             30,
             7
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeWind.cginc",
-        "type": "builtin-function",
         "name": "UnpackNormalFromFloat"
     },
     {
+        "type": "builtin-function",
         "pos": [
             45,
             7
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeWind.cginc",
-        "type": "builtin-function",
         "name": "CubicSmooth"
     },
     {
+        "type": "builtin-function",
         "pos": [
             54,
             7
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeWind.cginc",
-        "type": "builtin-function",
         "name": "TriangleWave"
     },
     {
+        "type": "builtin-function",
         "pos": [
             63,
             7
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeWind.cginc",
-        "type": "builtin-function",
         "name": "TrigApproximate"
     },
     {
+        "type": "builtin-function",
         "pos": [
             74,
             9
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeWind.cginc",
-        "type": "builtin-function",
         "name": "RotationMatrix"
     },
     {
+        "type": "builtin-function",
         "pos": [
             101,
             9
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeWind.cginc",
-        "type": "builtin-function",
         "name": "mul_float3x3_float3x3"
     },
     {
+        "type": "builtin-function",
         "pos": [
             110,
             7
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeWind.cginc",
-        "type": "builtin-function",
         "name": "mul_float3x3_float3"
     },
     {
+        "type": "builtin-function",
         "pos": [
             125,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeWind.cginc",
-        "type": "builtin-function",
         "name": "Roll"
     },
     {
+        "type": "builtin-function",
         "pos": [
             145,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeWind.cginc",
-        "type": "builtin-function",
         "name": "Twitch"
     },
     {
+        "type": "builtin-function",
         "pos": [
             165,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeWind.cginc",
-        "type": "builtin-function",
         "name": "Oscillate"
     },
     {
+        "type": "builtin-function",
         "pos": [
             230,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeWind.cginc",
-        "type": "builtin-function",
         "name": "Turbulence"
     },
     {
+        "type": "builtin-function",
         "pos": [
             246,
             7
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeWind.cginc",
-        "type": "builtin-function",
         "name": "GlobalWind"
     },
     {
+        "type": "builtin-function",
         "pos": [
             292,
             7
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeWind.cginc",
-        "type": "builtin-function",
         "name": "SimpleBranchWind"
     },
     {
+        "type": "builtin-function",
         "pos": [
             326,
             7
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeWind.cginc",
-        "type": "builtin-function",
         "name": "DirectionalBranchWind"
     },
     {
+        "type": "builtin-function",
         "pos": [
             376,
             7
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeWind.cginc",
-        "type": "builtin-function",
         "name": "DirectionalBranchWindFrondStyle"
     },
     {
+        "type": "builtin-function",
         "pos": [
             429,
             7
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeWind.cginc",
-        "type": "builtin-function",
         "name": "BranchWind"
     },
     {
+        "type": "builtin-function",
         "pos": [
             447,
             7
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeWind.cginc",
-        "type": "builtin-function",
         "name": "LeafRipple"
     },
     {
+        "type": "builtin-function",
         "pos": [
             477,
             7
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeWind.cginc",
-        "type": "builtin-function",
         "name": "LeafTumble"
     },
     {
+        "type": "builtin-function",
         "pos": [
             545,
             7
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeWind.cginc",
-        "type": "builtin-function",
         "name": "LeafWind"
     },
     {
+        "type": "builtin-function",
         "pos": [
             584,
             7
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeWind.cginc",
-        "type": "builtin-function",
         "name": "RippleFrondOneSided"
     },
     {
+        "type": "builtin-function",
         "pos": [
             619,
             7
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeWind.cginc",
-        "type": "builtin-function",
         "name": "RippleFrondTwoSided"
     },
     {
+        "type": "builtin-function",
         "pos": [
             655,
             7
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeWind.cginc",
-        "type": "builtin-function",
         "name": "RippleFrond"
     },
     {
+        "type": "builtin-function",
         "pos": [
             52,
             5
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\TerrainEngine.cginc",
-        "type": "builtin-function",
         "name": "FastSinCos"
     },
     {
+        "type": "builtin-function",
         "pos": [
             76,
             7
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\TerrainEngine.cginc",
-        "type": "builtin-function",
         "name": "TerrainWaveGrass"
     },
     {
+        "type": "builtin-function",
         "pos": [
             123,
             5
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\TerrainEngine.cginc",
-        "type": "builtin-function",
         "name": "TerrainBillboardGrass"
     },
     {
+        "type": "builtin-function",
         "pos": [
             139,
             5
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\TerrainEngine.cginc",
-        "type": "builtin-function",
         "name": "WavingGrassVert"
     },
     {
+        "type": "builtin-function",
         "pos": [
             148,
             5
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\TerrainEngine.cginc",
-        "type": "builtin-function",
         "name": "WavingGrassBillboardVert"
     },
     {
+        "type": "builtin-function",
         "pos": [
             160,
             14
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\TerrainEngine.cginc",
-        "type": "builtin-function",
         "name": "Squash"
     },
     {
+        "type": "builtin-function",
         "pos": [
             184,
             5
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\TerrainEngine.cginc",
-        "type": "builtin-function",
         "name": "TerrainAnimateTree"
     },
     {
+        "type": "builtin-function",
         "pos": [
             197,
             5
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\TerrainEngine.cginc",
-        "type": "builtin-function",
         "name": "TerrainBillboardTree"
     },
     {
+        "type": "builtin-function",
         "pos": [
             272,
             12
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\TerrainEngine.cginc",
-        "type": "builtin-function",
         "name": "ExpandBillboard"
     },
     {
+        "type": "builtin-function",
         "pos": [
             288,
             7
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\TerrainEngine.cginc",
-        "type": "builtin-function",
         "name": "SmoothCurve"
     },
     {
+        "type": "builtin-function",
         "pos": [
             291,
             7
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\TerrainEngine.cginc",
-        "type": "builtin-function",
         "name": "TriangleWave"
     },
     {
+        "type": "builtin-function",
         "pos": [
             294,
             7
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\TerrainEngine.cginc",
-        "type": "builtin-function",
         "name": "SmoothTriangleWave"
     },
     {
+        "type": "builtin-function",
         "pos": [
             299,
             14
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\TerrainEngine.cginc",
-        "type": "builtin-function",
         "name": "AnimateVertex"
     },
     {
+        "type": "builtin-function",
         "pos": [
             22,
             5
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\TerrainSplatmapCommon.cginc",
-        "type": "builtin-function",
         "name": "SplatmapVert"
     },
     {
+        "type": "builtin-function",
         "pos": [
             36,
             5
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\TerrainSplatmapCommon.cginc",
-        "type": "builtin-function",
         "name": "SplatmapMix"
     },
     {
+        "type": "builtin-function",
         "pos": [
             38,
             5
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\TerrainSplatmapCommon.cginc",
-        "type": "builtin-function",
         "name": "SplatmapMix"
     },
     {
+        "type": "builtin-function",
         "pos": [
             79,
             5
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\TerrainSplatmapCommon.cginc",
-        "type": "builtin-function",
         "name": "SplatmapFinalColor"
     },
     {
+        "type": "builtin-function",
         "pos": [
             89,
             5
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\TerrainSplatmapCommon.cginc",
-        "type": "builtin-function",
         "name": "SplatmapFinalPrepass"
     },
     {
+        "type": "builtin-function",
         "pos": [
             94,
             5
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\TerrainSplatmapCommon.cginc",
-        "type": "builtin-function",
         "name": "SplatmapFinalGBuffer"
     },
     {
+        "type": "builtin-function",
         "pos": [
             8,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\Tessellation.cginc",
-        "type": "builtin-function",
         "name": "UnityCalcDistanceTessFactor"
     },
     {
+        "type": "builtin-function",
         "pos": [
             16,
             7
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\Tessellation.cginc",
-        "type": "builtin-function",
         "name": "UnityCalcTriEdgeTessFactors"
     },
     {
+        "type": "builtin-function",
         "pos": [
             26,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\Tessellation.cginc",
-        "type": "builtin-function",
         "name": "UnityCalcEdgeTessFactor"
     },
     {
+        "type": "builtin-function",
         "pos": [
             37,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\Tessellation.cginc",
-        "type": "builtin-function",
         "name": "UnityDistanceFromPlane"
     },
     {
+        "type": "builtin-function",
         "pos": [
             46,
             5
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\Tessellation.cginc",
-        "type": "builtin-function",
         "name": "UnityWorldViewFrustumCull"
     },
     {
+        "type": "builtin-function",
         "pos": [
             79,
             7
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\Tessellation.cginc",
-        "type": "builtin-function",
         "name": "UnityDistanceBasedTess"
     },
     {
+        "type": "builtin-function",
         "pos": [
             92,
             7
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\Tessellation.cginc",
-        "type": "builtin-function",
         "name": "UnityEdgeLengthBasedTess"
     },
     {
+        "type": "builtin-function",
         "pos": [
             108,
             7
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\Tessellation.cginc",
-        "type": "builtin-function",
         "name": "UnityEdgeLengthBasedTessCull"
     },
     {
+        "type": "builtin-function",
         "pos": [
             30,
             4
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityBuiltin2xTreeLibrary.cginc",
-        "type": "builtin-function",
         "name": "leaves"
     },
     {
+        "type": "builtin-function",
         "pos": [
             75,
             4
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityBuiltin2xTreeLibrary.cginc",
-        "type": "builtin-function",
         "name": "bark"
     },
     {
+        "type": "builtin-function",
         "pos": [
             25,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityBuiltin3xTreeLibrary.cginc",
-        "type": "builtin-function",
         "name": "LightingTreeLeaf"
     },
     {
+        "type": "builtin-function",
         "pos": [
             65,
             7
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityBuiltin3xTreeLibrary.cginc",
-        "type": "builtin-function",
         "name": "ShadeTranslucentMainLight"
     },
     {
+        "type": "builtin-function",
         "pos": [
             85,
             7
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityBuiltin3xTreeLibrary.cginc",
-        "type": "builtin-function",
         "name": "ShadeTranslucentLights"
     },
     {
+        "type": "builtin-function",
         "pos": [
             112,
             5
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityBuiltin3xTreeLibrary.cginc",
-        "type": "builtin-function",
         "name": "TreeVertBark"
     },
     {
+        "type": "builtin-function",
         "pos": [
             124,
             5
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityBuiltin3xTreeLibrary.cginc",
-        "type": "builtin-function",
         "name": "TreeVertLeaf"
     },
     {
+        "type": "builtin-function",
         "pos": [
             60,
             12
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "IsGammaSpace"
     },
     {
+        "type": "builtin-function",
         "pos": [
             70,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "GammaToLinearSpaceExact"
     },
     {
+        "type": "builtin-function",
         "pos": [
             80,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "GammaToLinearSpace"
     },
     {
+        "type": "builtin-function",
         "pos": [
             89,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "LinearToGammaSpaceExact"
     },
     {
+        "type": "builtin-function",
         "pos": [
             101,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "LinearToGammaSpace"
     },
     {
+        "type": "builtin-function",
         "pos": [
             112,
             14
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "UnityObjectToWorldDir"
     },
     {
+        "type": "builtin-function",
         "pos": [
             118,
             14
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "UnityWorldToObjectDir"
     },
     {
+        "type": "builtin-function",
         "pos": [
             124,
             14
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "UnityObjectToWorldNormal"
     },
     {
+        "type": "builtin-function",
         "pos": [
             131,
             14
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "UnityWorldSpaceLightDir"
     },
     {
+        "type": "builtin-function",
         "pos": [
             146,
             14
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "WorldSpaceLightDir"
     },
     {
+        "type": "builtin-function",
         "pos": [
             153,
             14
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "ObjSpaceLightDir"
     },
     {
+        "type": "builtin-function",
         "pos": [
             168,
             14
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "UnityWorldSpaceViewDir"
     },
     {
+        "type": "builtin-function",
         "pos": [
             175,
             14
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "WorldSpaceViewDir"
     },
     {
+        "type": "builtin-function",
         "pos": [
             182,
             14
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "ObjSpaceViewDir"
     },
     {
+        "type": "builtin-function",
         "pos": [
             196,
             7
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "Shade4PointLights"
     },
     {
+        "type": "builtin-function",
         "pos": [
             233,
             7
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "ShadeVertexLightsFull"
     },
     {
+        "type": "builtin-function",
         "pos": [
             258,
             7
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "ShadeVertexLights"
     },
     {
+        "type": "builtin-function",
         "pos": [
             264,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "SHEvalLinearL0L1"
     },
     {
+        "type": "builtin-function",
         "pos": [
             277,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "SHEvalLinearL2"
     },
     {
+        "type": "builtin-function",
         "pos": [
             295,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "ShadeSH9"
     },
     {
+        "type": "builtin-function",
         "pos": [
             310,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "ShadeSH3Order"
     },
     {
+        "type": "builtin-function",
         "pos": [
             321,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "ShadeSH12Order"
     },
     {
+        "type": "builtin-function",
         "pos": [
             345,
             14
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "VertexLight"
     },
     {
+        "type": "builtin-function",
         "pos": [
             356,
             14
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "ParallaxOffset"
     },
     {
+        "type": "builtin-function",
         "pos": [
             366,
             12
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "Luminance"
     },
     {
+        "type": "builtin-function",
         "pos": [
             392,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "UnityEncodeRGBM"
     },
     {
+        "type": "builtin-function",
         "pos": [
             410,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "DecodeHDR"
     },
     {
+        "type": "builtin-function",
         "pos": [
             423,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "DecodeLightmapRGBM"
     },
     {
+        "type": "builtin-function",
         "pos": [
             438,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "DecodeLightmapDoubleLDR"
     },
     {
+        "type": "builtin-function",
         "pos": [
             445,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "DecodeLightmap"
     },
     {
+        "type": "builtin-function",
         "pos": [
             461,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "DecodeRealtimeLightmap"
     },
     {
+        "type": "builtin-function",
         "pos": [
             471,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "DecodeDirectionalLightmap"
     },
     {
+        "type": "builtin-function",
         "pos": [
             500,
             7
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "MultiplyUV"
     },
     {
+        "type": "builtin-function",
         "pos": [
             506,
             8
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "vert_img"
     },
     {
+        "type": "builtin-function",
         "pos": [
             516,
             14
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "EncodeFloatRGBA"
     },
     {
+        "type": "builtin-function",
         "pos": [
             525,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "DecodeFloatRGBA"
     },
     {
+        "type": "builtin-function",
         "pos": [
             532,
             14
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "EncodeFloatRG"
     },
     {
+        "type": "builtin-function",
         "pos": [
             541,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "DecodeFloatRG"
     },
     {
+        "type": "builtin-function",
         "pos": [
             549,
             14
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "EncodeViewNormalStereo"
     },
     {
+        "type": "builtin-function",
         "pos": [
             558,
             14
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "DecodeViewNormalStereo"
     },
     {
+        "type": "builtin-function",
         "pos": [
             569,
             14
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "EncodeDepthNormal"
     },
     {
+        "type": "builtin-function",
         "pos": [
             577,
             12
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "DecodeDepthNormal"
     },
     {
+        "type": "builtin-function",
         "pos": [
             583,
             14
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "UnpackNormalDXT5nm"
     },
     {
+        "type": "builtin-function",
         "pos": [
             591,
             14
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "UnpackNormal"
     },
     {
+        "type": "builtin-function",
         "pos": [
             602,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "Linear01Depth"
     },
     {
+        "type": "builtin-function",
         "pos": [
             607,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "LinearEyeDepth"
     },
     {
+        "type": "builtin-function",
         "pos": [
             629,
             14
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "ComputeScreenPos"
     },
     {
+        "type": "builtin-function",
         "pos": [
             641,
             14
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "ComputeGrabScreenPos"
     },
     {
+        "type": "builtin-function",
         "pos": [
             654,
             14
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "UnityPixelSnap"
     },
     {
+        "type": "builtin-function",
         "pos": [
             667,
             14
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "TransformViewToProjection"
     },
     {
+        "type": "builtin-function",
         "pos": [
             671,
             14
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "TransformViewToProjection"
     },
     {
+        "type": "builtin-function",
         "pos": [
             677,
             7
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "UnityEncodeCubeShadowDepth"
     },
     {
+        "type": "builtin-function",
         "pos": [
             686,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "UnityDecodeCubeShadowDepth"
     },
     {
+        "type": "builtin-function",
         "pos": [
             696,
             7
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "UnityClipSpaceShadowCasterPos"
     },
     {
+        "type": "builtin-function",
         "pos": [
             731,
             7
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "UnityApplyLinearShadowBias"
     },
     {
+        "type": "builtin-function",
         "pos": [
             870,
             7
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "ComputeDitherScreenPos"
     },
     {
+        "type": "builtin-function",
         "pos": [
             878,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-function",
         "name": "ApplyDitherCrossFade"
     },
     {
+        "type": "builtin-function",
         "pos": [
             18,
             19
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityDeferredLibrary.cginc",
-        "type": "builtin-function",
         "name": "vert_deferred"
     },
     {
+        "type": "builtin-function",
         "pos": [
             67,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityDeferredLibrary.cginc",
-        "type": "builtin-function",
         "name": "UnityDeferredComputeFadeDistance"
     },
     {
+        "type": "builtin-function",
         "pos": [
             73,
             5
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityDeferredLibrary.cginc",
-        "type": "builtin-function",
         "name": "UnityDeferredComputeShadow"
     },
     {
+        "type": "builtin-function",
         "pos": [
             107,
             5
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityDeferredLibrary.cginc",
-        "type": "builtin-function",
         "name": "UnityDeferredCalculateLightParams"
     },
     {
+        "type": "builtin-function",
         "pos": [
             10,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityGlobalIllumination.cginc",
-        "type": "builtin-function",
         "name": "DecodeDirectionalSpecularLightmap"
     },
     {
+        "type": "builtin-function",
         "pos": [
             43,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityGlobalIllumination.cginc",
-        "type": "builtin-function",
         "name": "MixLightmapWithRealtimeAttenuation"
     },
     {
+        "type": "builtin-function",
         "pos": [
             56,
             12
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityGlobalIllumination.cginc",
-        "type": "builtin-function",
         "name": "ResetUnityLight"
     },
     {
+        "type": "builtin-function",
         "pos": [
             63,
             12
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityGlobalIllumination.cginc",
-        "type": "builtin-function",
         "name": "ResetUnityGI"
     },
     {
+        "type": "builtin-function",
         "pos": [
             79,
             15
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityGlobalIllumination.cginc",
-        "type": "builtin-function",
         "name": "UnityGI_Base"
     },
     {
+        "type": "builtin-function",
         "pos": [
             154,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityGlobalIllumination.cginc",
-        "type": "builtin-function",
         "name": "UnityGI_IndirectSpecular"
     },
     {
+        "type": "builtin-function",
         "pos": [
             192,
             15
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityGlobalIllumination.cginc",
-        "type": "builtin-function",
         "name": "UnityGlobalIllumination"
     },
     {
+        "type": "builtin-function",
         "pos": [
             197,
             15
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityGlobalIllumination.cginc",
-        "type": "builtin-function",
         "name": "UnityGlobalIllumination"
     },
     {
+        "type": "builtin-function",
         "pos": [
             208,
             15
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityGlobalIllumination.cginc",
-        "type": "builtin-function",
         "name": "UnityGlobalIllumination"
     },
     {
+        "type": "builtin-function",
         "pos": [
             222,
             15
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityGlobalIllumination.cginc",
-        "type": "builtin-function",
         "name": "UnityGlobalIllumination"
     },
     {
+        "type": "builtin-function",
         "pos": [
             23,
             7
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityMetaPass.cginc",
-        "type": "builtin-function",
         "name": "UnityMetaVertexPosition"
     },
     {
+        "type": "builtin-function",
         "pos": [
             46,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityMetaPass.cginc",
-        "type": "builtin-function",
         "name": "UnityMetaFragment"
     },
     {
+        "type": "builtin-function",
         "pos": [
             47,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityPBSLighting.cginc",
-        "type": "builtin-function",
         "name": "BRDF_Unity_Indirect"
     },
     {
+        "type": "builtin-function",
         "pos": [
             103,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityPBSLighting.cginc",
-        "type": "builtin-function",
         "name": "LightingStandard"
     },
     {
+        "type": "builtin-function",
         "pos": [
             122,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityPBSLighting.cginc",
-        "type": "builtin-function",
         "name": "LightingStandard_Deferred"
     },
     {
+        "type": "builtin-function",
         "pos": [
             138,
             12
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityPBSLighting.cginc",
-        "type": "builtin-function",
         "name": "LightingStandard_GI"
     },
     {
+        "type": "builtin-function",
         "pos": [
             160,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityPBSLighting.cginc",
-        "type": "builtin-function",
         "name": "LightingStandardSpecular"
     },
     {
+        "type": "builtin-function",
         "pos": [
             179,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityPBSLighting.cginc",
-        "type": "builtin-function",
         "name": "LightingStandardSpecular_Deferred"
     },
     {
+        "type": "builtin-function",
         "pos": [
             195,
             12
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityPBSLighting.cginc",
-        "type": "builtin-function",
         "name": "LightingStandardSpecular_GI"
     },
     {
+        "type": "builtin-function",
         "pos": [
             24,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityShadowLibrary.cginc",
-        "type": "builtin-function",
         "name": "UnitySampleShadowmap"
     },
     {
+        "type": "builtin-function",
         "pos": [
             95,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityShadowLibrary.cginc",
-        "type": "builtin-function",
         "name": "SampleCubeDistance"
     },
     {
+        "type": "builtin-function",
         "pos": [
             99,
             12
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityShadowLibrary.cginc",
-        "type": "builtin-function",
         "name": "UnitySampleShadowmap"
     },
     {
+        "type": "builtin-function",
         "pos": [
             17,
             12
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
-        "type": "builtin-function",
         "name": "DotClamped"
     },
     {
+        "type": "builtin-function",
         "pos": [
             26,
             12
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
-        "type": "builtin-function",
         "name": "Pow4"
     },
     {
+        "type": "builtin-function",
         "pos": [
             31,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
-        "type": "builtin-function",
         "name": "Pow4"
     },
     {
+        "type": "builtin-function",
         "pos": [
             36,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
-        "type": "builtin-function",
         "name": "Pow4"
     },
     {
+        "type": "builtin-function",
         "pos": [
             41,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
-        "type": "builtin-function",
         "name": "Pow4"
     },
     {
+        "type": "builtin-function",
         "pos": [
             49,
             12
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
-        "type": "builtin-function",
         "name": "Pow5"
     },
     {
+        "type": "builtin-function",
         "pos": [
             54,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
-        "type": "builtin-function",
         "name": "Pow5"
     },
     {
+        "type": "builtin-function",
         "pos": [
             59,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
-        "type": "builtin-function",
         "name": "Pow5"
     },
     {
+        "type": "builtin-function",
         "pos": [
             64,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
-        "type": "builtin-function",
         "name": "Pow5"
     },
     {
+        "type": "builtin-function",
         "pos": [
             69,
             12
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
-        "type": "builtin-function",
         "name": "LambertTerm"
     },
     {
+        "type": "builtin-function",
         "pos": [
             74,
             12
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
-        "type": "builtin-function",
         "name": "BlinnTerm"
     },
     {
+        "type": "builtin-function",
         "pos": [
             79,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
-        "type": "builtin-function",
         "name": "FresnelTerm"
     },
     {
+        "type": "builtin-function",
         "pos": [
             84,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
-        "type": "builtin-function",
         "name": "FresnelLerp"
     },
     {
+        "type": "builtin-function",
         "pos": [
             90,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
-        "type": "builtin-function",
         "name": "FresnelLerpFast"
     },
     {
+        "type": "builtin-function",
         "pos": [
             95,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
-        "type": "builtin-function",
         "name": "LazarovFresnelTerm"
     },
     {
+        "type": "builtin-function",
         "pos": [
             101,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
-        "type": "builtin-function",
         "name": "SebLagardeFresnelTerm"
     },
     {
+        "type": "builtin-function",
         "pos": [
             111,
             12
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
-        "type": "builtin-function",
         "name": "CookTorranceVisibilityTerm"
     },
     {
+        "type": "builtin-function",
         "pos": [
             122,
             12
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
-        "type": "builtin-function",
         "name": "KelemenVisibilityTerm"
     },
     {
+        "type": "builtin-function",
         "pos": [
             128,
             12
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
-        "type": "builtin-function",
         "name": "ModifiedKelemenVisibilityTerm"
     },
     {
+        "type": "builtin-function",
         "pos": [
             137,
             12
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
-        "type": "builtin-function",
         "name": "SmithVisibilityTerm"
     },
     {
+        "type": "builtin-function",
         "pos": [
             146,
             12
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
-        "type": "builtin-function",
         "name": "SmithBeckmannVisibilityTerm"
     },
     {
+        "type": "builtin-function",
         "pos": [
             154,
             12
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
-        "type": "builtin-function",
         "name": "SmithGGXVisibilityTerm"
     },
     {
+        "type": "builtin-function",
         "pos": [
             161,
             12
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
-        "type": "builtin-function",
         "name": "SmithJointGGXVisibilityTerm"
     },
     {
+        "type": "builtin-function",
         "pos": [
             189,
             12
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
-        "type": "builtin-function",
         "name": "ImplicitVisibilityTerm"
     },
     {
+        "type": "builtin-function",
         "pos": [
             194,
             12
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
-        "type": "builtin-function",
         "name": "RoughnessToSpecPower"
     },
     {
+        "type": "builtin-function",
         "pos": [
             219,
             12
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
-        "type": "builtin-function",
         "name": "NDFBlinnPhongNormalizedTerm"
     },
     {
+        "type": "builtin-function",
         "pos": [
             231,
             12
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
-        "type": "builtin-function",
         "name": "RDFBlinnPhongNormalizedTerm"
     },
     {
+        "type": "builtin-function",
         "pos": [
             238,
             12
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
-        "type": "builtin-function",
         "name": "GGXTerm"
     },
     {
+        "type": "builtin-function",
         "pos": [
             255,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
-        "type": "builtin-function",
         "name": "GetSpecPowToMip"
     },
     {
+        "type": "builtin-function",
         "pos": [
             269,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
-        "type": "builtin-function",
         "name": "DecodeHDR_NoLinearSupportInSM2"
     },
     {
+        "type": "builtin-function",
         "pos": [
             328,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
-        "type": "builtin-function",
         "name": "Unity_SafeNormalize"
     },
     {
+        "type": "builtin-function",
         "pos": [
             352,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
-        "type": "builtin-function",
         "name": "BRDF1_Unity_PBS"
     },
     {
+        "type": "builtin-function",
         "pos": [
             425,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
-        "type": "builtin-function",
         "name": "BRDF2_Unity_PBS"
     },
     {
+        "type": "builtin-function",
         "pos": [
             474,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
-        "type": "builtin-function",
         "name": "BRDF3_Direct"
     },
     {
+        "type": "builtin-function",
         "pos": [
             482,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
-        "type": "builtin-function",
         "name": "BRDF3_Indirect"
     },
     {
+        "type": "builtin-function",
         "pos": [
             497,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
-        "type": "builtin-function",
         "name": "BRDF3_Unity_PBS"
     },
     {
+        "type": "builtin-function",
         "pos": [
             18,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
-        "type": "builtin-function",
         "name": "NormalizePerVertexNormal"
     },
     {
+        "type": "builtin-function",
         "pos": [
             27,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
-        "type": "builtin-function",
         "name": "NormalizePerPixelNormal"
     },
     {
+        "type": "builtin-function",
         "pos": [
             37,
             11
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
-        "type": "builtin-function",
         "name": "MainLight"
     },
     {
+        "type": "builtin-function",
         "pos": [
             56,
             11
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
-        "type": "builtin-function",
         "name": "AdditiveLight"
     },
     {
+        "type": "builtin-function",
         "pos": [
             72,
             11
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
-        "type": "builtin-function",
         "name": "DummyLight"
     },
     {
+        "type": "builtin-function",
         "pos": [
             81,
             14
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
-        "type": "builtin-function",
         "name": "ZeroIndirect"
     },
     {
+        "type": "builtin-function",
         "pos": [
             93,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
-        "type": "builtin-function",
         "name": "WorldNormal"
     },
     {
+        "type": "builtin-function",
         "pos": [
             100,
             9
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
-        "type": "builtin-function",
         "name": "ExtractTangentToWorldPerPixel"
     },
     {
+        "type": "builtin-function",
         "pos": [
             120,
             9
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
-        "type": "builtin-function",
         "name": "ExtractTangentToWorldPerPixel"
     },
     {
+        "type": "builtin-function",
         "pos": [
             126,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
-        "type": "builtin-function",
         "name": "PerPixelWorldNormal"
     },
     {
+        "type": "builtin-function",
         "pos": [
             196,
             26
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
-        "type": "builtin-function",
         "name": "SpecularSetup"
     },
     {
+        "type": "builtin-function",
         "pos": [
             213,
             26
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
-        "type": "builtin-function",
         "name": "MetallicSetup"
     },
     {
+        "type": "builtin-function",
         "pos": [
             231,
             26
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
-        "type": "builtin-function",
         "name": "FragmentSetup"
     },
     {
+        "type": "builtin-function",
         "pos": [
             250,
             15
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
-        "type": "builtin-function",
         "name": "FragmentGI"
     },
     {
+        "type": "builtin-function",
         "pos": [
             292,
             15
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
-        "type": "builtin-function",
         "name": "FragmentGI"
     },
     {
+        "type": "builtin-function",
         "pos": [
             299,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
-        "type": "builtin-function",
         "name": "OutputForward"
     },
     {
+        "type": "builtin-function",
         "pos": [
             309,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
-        "type": "builtin-function",
         "name": "VertexGIForward"
     },
     {
+        "type": "builtin-function",
         "pos": [
             363,
             24
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
-        "type": "builtin-function",
         "name": "vertForwardBase"
     },
     {
+        "type": "builtin-function",
         "pos": [
             409,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
-        "type": "builtin-function",
         "name": "fragForwardBaseInternal"
     },
     {
+        "type": "builtin-function",
         "pos": [
             431,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
-        "type": "builtin-function",
         "name": "fragForwardBase"
     },
     {
+        "type": "builtin-function",
         "pos": [
             454,
             23
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
-        "type": "builtin-function",
         "name": "vertForwardAdd"
     },
     {
+        "type": "builtin-function",
         "pos": [
             496,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
-        "type": "builtin-function",
         "name": "fragForwardAddInternal"
     },
     {
+        "type": "builtin-function",
         "pos": [
             509,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
-        "type": "builtin-function",
         "name": "fragForwardAdd"
     },
     {
+        "type": "builtin-function",
         "pos": [
             538,
             21
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
-        "type": "builtin-function",
         "name": "vertDeferred"
     },
     {
+        "type": "builtin-function",
         "pos": [
             589,
             5
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
-        "type": "builtin-function",
         "name": "fragDeferred"
     },
     {
+        "type": "builtin-function",
         "pos": [
             646,
             15
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
-        "type": "builtin-function",
         "name": "FragmentGI"
     },
     {
+        "type": "builtin-function",
         "pos": [
             663,
             15
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
-        "type": "builtin-function",
         "name": "FragmentGI"
     },
     {
+        "type": "builtin-function",
         "pos": [
             12,
             24
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForward.cginc",
-        "type": "builtin-function",
         "name": "vertBase"
     },
     {
+        "type": "builtin-function",
         "pos": [
             13,
             30
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForward.cginc",
-        "type": "builtin-function",
         "name": "vertAdd"
     },
     {
+        "type": "builtin-function",
         "pos": [
             14,
             7
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForward.cginc",
-        "type": "builtin-function",
         "name": "fragBase"
     },
     {
+        "type": "builtin-function",
         "pos": [
             15,
             7
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForward.cginc",
-        "type": "builtin-function",
         "name": "fragAdd"
     },
     {
+        "type": "builtin-function",
         "pos": [
             18,
             25
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForward.cginc",
-        "type": "builtin-function",
         "name": "vertBase"
     },
     {
+        "type": "builtin-function",
         "pos": [
             19,
             24
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForward.cginc",
-        "type": "builtin-function",
         "name": "vertAdd"
     },
     {
+        "type": "builtin-function",
         "pos": [
             20,
             7
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForward.cginc",
-        "type": "builtin-function",
         "name": "fragBase"
     },
     {
+        "type": "builtin-function",
         "pos": [
             21,
             7
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForward.cginc",
-        "type": "builtin-function",
         "name": "fragAdd"
     },
     {
+        "type": "builtin-function",
         "pos": [
             37,
             5
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForwardSimple.cginc",
-        "type": "builtin-function",
         "name": "MetallicSetup_Reflectivity"
     },
     {
+        "type": "builtin-function",
         "pos": [
             42,
             5
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForwardSimple.cginc",
-        "type": "builtin-function",
         "name": "SpecularSetup_Reflectivity"
     },
     {
+        "type": "builtin-function",
         "pos": [
             54,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForwardSimple.cginc",
-        "type": "builtin-function",
         "name": "TransformToTangentSpace"
     },
     {
+        "type": "builtin-function",
         "pos": [
             60,
             5
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForwardSimple.cginc",
-        "type": "builtin-function",
         "name": "TangentSpaceLightingInput"
     },
     {
+        "type": "builtin-function",
         "pos": [
             75,
             23
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForwardSimple.cginc",
-        "type": "builtin-function",
         "name": "vertForwardBaseSimple"
     },
     {
+        "type": "builtin-function",
         "pos": [
             118,
             19
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForwardSimple.cginc",
-        "type": "builtin-function",
         "name": "FragmentSetupSimple"
     },
     {
+        "type": "builtin-function",
         "pos": [
             144,
             11
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForwardSimple.cginc",
-        "type": "builtin-function",
         "name": "MainLightSimple"
     },
     {
+        "type": "builtin-function",
         "pos": [
             153,
             5
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForwardSimple.cginc",
-        "type": "builtin-function",
         "name": "PerVertexGrazingTerm"
     },
     {
+        "type": "builtin-function",
         "pos": [
             162,
             5
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForwardSimple.cginc",
-        "type": "builtin-function",
         "name": "PerVertexFresnelTerm"
     },
     {
+        "type": "builtin-function",
         "pos": [
             175,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForwardSimple.cginc",
-        "type": "builtin-function",
         "name": "LightDirForSpecular"
     },
     {
+        "type": "builtin-function",
         "pos": [
             184,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForwardSimple.cginc",
-        "type": "builtin-function",
         "name": "BRDF3DirectSimple"
     },
     {
+        "type": "builtin-function",
         "pos": [
             193,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForwardSimple.cginc",
-        "type": "builtin-function",
         "name": "fragForwardBaseSimpleInternal"
     },
     {
+        "type": "builtin-function",
         "pos": [
             217,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForwardSimple.cginc",
-        "type": "builtin-function",
         "name": "fragForwardBaseSimple"
     },
     {
+        "type": "builtin-function",
         "pos": [
             246,
             29
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForwardSimple.cginc",
-        "type": "builtin-function",
         "name": "vertForwardAddSimple"
     },
     {
+        "type": "builtin-function",
         "pos": [
             288,
             19
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForwardSimple.cginc",
-        "type": "builtin-function",
         "name": "FragmentSetupSimpleAdd"
     },
     {
+        "type": "builtin-function",
         "pos": [
             320,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForwardSimple.cginc",
-        "type": "builtin-function",
         "name": "LightSpaceNormal"
     },
     {
+        "type": "builtin-function",
         "pos": [
             329,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForwardSimple.cginc",
-        "type": "builtin-function",
         "name": "fragForwardAddSimpleInternal"
     },
     {
+        "type": "builtin-function",
         "pos": [
             345,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForwardSimple.cginc",
-        "type": "builtin-function",
         "name": "fragForwardAddSimple"
     },
     {
+        "type": "builtin-function",
         "pos": [
             69,
             7
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardInput.cginc",
-        "type": "builtin-function",
         "name": "TexCoords"
     },
     {
+        "type": "builtin-function",
         "pos": [
             77,
             5
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardInput.cginc",
-        "type": "builtin-function",
         "name": "DetailMask"
     },
     {
+        "type": "builtin-function",
         "pos": [
             82,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardInput.cginc",
-        "type": "builtin-function",
         "name": "Albedo"
     },
     {
+        "type": "builtin-function",
         "pos": [
             107,
             5
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardInput.cginc",
-        "type": "builtin-function",
         "name": "Alpha"
     },
     {
+        "type": "builtin-function",
         "pos": [
             112,
             5
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardInput.cginc",
-        "type": "builtin-function",
         "name": "Occlusion"
     },
     {
+        "type": "builtin-function",
         "pos": [
             124,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardInput.cginc",
-        "type": "builtin-function",
         "name": "SpecularGloss"
     },
     {
+        "type": "builtin-function",
         "pos": [
             135,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardInput.cginc",
-        "type": "builtin-function",
         "name": "MetallicGloss"
     },
     {
+        "type": "builtin-function",
         "pos": [
             146,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardInput.cginc",
-        "type": "builtin-function",
         "name": "Emission"
     },
     {
+        "type": "builtin-function",
         "pos": [
             156,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardInput.cginc",
-        "type": "builtin-function",
         "name": "NormalInTangentSpace"
     },
     {
+        "type": "builtin-function",
         "pos": [
             180,
             7
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardInput.cginc",
-        "type": "builtin-function",
         "name": "Parallax"
     },
     {
+        "type": "builtin-function",
         "pos": [
             22,
             9
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardMeta.cginc",
-        "type": "builtin-function",
         "name": "vert_meta"
     },
     {
+        "type": "builtin-function",
         "pos": [
             33,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardMeta.cginc",
-        "type": "builtin-function",
         "name": "UnityLightmappingAlbedo"
     },
     {
+        "type": "builtin-function",
         "pos": [
             41,
             7
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardMeta.cginc",
-        "type": "builtin-function",
         "name": "frag_meta"
     },
     {
+        "type": "builtin-function",
         "pos": [
             62,
             5
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardShadow.cginc",
-        "type": "builtin-function",
         "name": "vertShadowCaster"
     },
     {
+        "type": "builtin-function",
         "pos": [
             74,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardShadow.cginc",
-        "type": "builtin-function",
         "name": "fragShadowCaster"
     },
     {
+        "type": "builtin-function",
         "pos": [
             9,
             5
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardUtils.cginc",
-        "type": "builtin-function",
         "name": "SpecularStrength"
     },
     {
+        "type": "builtin-function",
         "pos": [
             21,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardUtils.cginc",
-        "type": "builtin-function",
         "name": "EnergyConservationBetweenDiffuseAndSpecular"
     },
     {
+        "type": "builtin-function",
         "pos": [
             33,
             12
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardUtils.cginc",
-        "type": "builtin-function",
         "name": "OneMinusReflectivityFromMetallic"
     },
     {
+        "type": "builtin-function",
         "pos": [
             44,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardUtils.cginc",
-        "type": "builtin-function",
         "name": "DiffuseAndSpecularFromMetallic"
     },
     {
+        "type": "builtin-function",
         "pos": [
             51,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardUtils.cginc",
-        "type": "builtin-function",
         "name": "PreMultiplyAlpha"
     },
     {
+        "type": "builtin-function",
         "pos": [
             78,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardUtils.cginc",
-        "type": "builtin-function",
         "name": "ParallaxOffset1Step"
     },
     {
+        "type": "builtin-function",
         "pos": [
             86,
             5
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardUtils.cginc",
-        "type": "builtin-function",
         "name": "LerpOneTo"
     },
     {
+        "type": "builtin-function",
         "pos": [
             92,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardUtils.cginc",
-        "type": "builtin-function",
         "name": "LerpWhiteTo"
     },
     {
+        "type": "builtin-function",
         "pos": [
             98,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardUtils.cginc",
-        "type": "builtin-function",
         "name": "UnpackScaleNormal"
     },
     {
+        "type": "builtin-function",
         "pos": [
             115,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardUtils.cginc",
-        "type": "builtin-function",
         "name": "BlendNormals"
     },
     {
+        "type": "builtin-function",
         "pos": [
             120,
             8
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardUtils.cginc",
-        "type": "builtin-function",
         "name": "CreateTangentToWorldPerVertex"
     },
     {
+        "type": "builtin-function",
         "pos": [
             129,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardUtils.cginc",
-        "type": "builtin-function",
         "name": "ShadeSHPerVertex"
     },
     {
+        "type": "builtin-function",
         "pos": [
             150,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardUtils.cginc",
-        "type": "builtin-function",
         "name": "ShadeSHPerPixel"
     },
     {
+        "type": "builtin-function",
         "pos": [
             175,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardUtils.cginc",
-        "type": "builtin-function",
         "name": "BoxProjectedCubemapDirection"
     },
     {
+        "type": "builtin-function",
         "pos": [
             213,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardUtils.cginc",
-        "type": "builtin-function",
         "name": "CalculateSurfaceGradient"
     },
     {
+        "type": "builtin-function",
         "pos": [
             221,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardUtils.cginc",
-        "type": "builtin-function",
         "name": "PerturbNormal"
     },
     {
+        "type": "builtin-function",
         "pos": [
             229,
             6
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardUtils.cginc",
-        "type": "builtin-function",
         "name": "CalculateSurfaceNormal"
     },
     {
+        "type": "builtin-function",
         "pos": [
             4,
             13
         ],
         "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityUI.cginc",
-        "type": "builtin-function",
         "name": "UnityGet2DClipping"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             11,
             10
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
         "name": "unityShadowCoord"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             12,
             10
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
         "name": "unityShadowCoord2"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             13,
             10
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
         "name": "unityShadowCoord3"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             15,
             10
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
         "name": "unityShadowCoord"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             16,
             10
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
         "name": "unityShadowCoord2"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             17,
             10
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
         "name": "unityShadowCoord3"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             20,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
         "name": "unityShadowCoord4"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             22,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
         "name": "unityShadowCoord4"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             24,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
         "name": "unityShadowCoord4x4"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             26,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
         "name": "unityShadowCoord"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             27,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
         "name": "unityShadowCoord2"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             28,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
         "name": "unityShadowCoord3"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             29,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
         "name": "unityShadowCoord4"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             30,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
         "name": "unityShadowCoord4x4"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             40,
             10
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
         "name": "SHADOW_COORDS"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             47,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
         "name": "TRANSFER_SHADOW"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             72,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
         "name": "TRANSFER_SHADOW"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             81,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
         "name": "SHADOW_ATTENUATION"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             89,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
         "name": "SHADOW_COORDS"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             90,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
         "name": "TRANSFER_SHADOW"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             91,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
         "name": "SHADOW_ATTENUATION"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             97,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
         "name": "SHADOW_COORDS"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             98,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
         "name": "TRANSFER_SHADOW"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             99,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
         "name": "SHADOW_ATTENUATION"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             104,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
         "name": "SHADOW_COORDS"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             105,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
         "name": "TRANSFER_SHADOW"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             106,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
         "name": "SHADOW_ATTENUATION"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             125,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
         "name": "UNITY_LIGHT_ATTENUATION"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             142,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
         "name": "UNITY_LIGHT_ATTENUATION"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             149,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
         "name": "UNITY_LIGHT_ATTENUATION"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             157,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
         "name": "UNITY_LIGHT_ATTENUATION"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             165,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
         "name": "UNITY_LIGHT_ATTENUATION"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             178,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
         "name": "LIGHTING_COORDS"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             179,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
         "name": "TRANSFER_VERTEX_TO_FRAGMENT"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             180,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
         "name": "LIGHT_ATTENUATION"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             184,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
         "name": "LIGHTING_COORDS"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             185,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
         "name": "TRANSFER_VERTEX_TO_FRAGMENT"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             186,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
         "name": "LIGHT_ATTENUATION"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             190,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
         "name": "LIGHTING_COORDS"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             191,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
         "name": "TRANSFER_VERTEX_TO_FRAGMENT"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             192,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
         "name": "LIGHT_ATTENUATION"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             196,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
         "name": "LIGHTING_COORDS"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             197,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
         "name": "TRANSFER_VERTEX_TO_FRAGMENT"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             198,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
         "name": "LIGHT_ATTENUATION"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             202,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
         "name": "LIGHTING_COORDS"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             203,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
         "name": "TRANSFER_VERTEX_TO_FRAGMENT"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             204,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
         "name": "LIGHT_ATTENUATION"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             166,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\Lighting.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\Lighting.cginc",
         "name": "UNITY_DIRBASIS"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             13,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeBillboardCommon.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeBillboardCommon.cginc",
         "name": "unity_BillboardCameraPosition"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             14,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeBillboardCommon.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeBillboardCommon.cginc",
         "name": "unity_BillboardCameraXZAngle"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             27,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeCommon.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeCommon.cginc",
         "name": "mainTexUV"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             32,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeCommon.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeCommon.cginc",
         "name": "Detail"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             42,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeCommon.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeCommon.cginc",
         "name": "HueVariationAmount"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             86,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeCommon.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeCommon.cginc",
         "name": "SPEEDTREE_DATA_NORMAL"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             87,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeCommon.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeCommon.cginc",
         "name": "SPEEDTREE_COPY_NORMAL"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             90,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeCommon.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeCommon.cginc",
         "name": "SPEEDTREE_COPY_NORMAL"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             92,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeCommon.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeCommon.cginc",
         "name": "SPEEDTREE_COPY_FRAG"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             34,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeVertex.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeVertex.cginc",
         "name": "WIND_QUALITY_NONE"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             36,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeVertex.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeVertex.cginc",
         "name": "WIND_QUALITY_FASTEST"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             37,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeVertex.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeVertex.cginc",
         "name": "WIND_QUALITY_FAST"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             38,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeVertex.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeVertex.cginc",
         "name": "WIND_QUALITY_BETTER"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             39,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeVertex.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeVertex.cginc",
         "name": "WIND_QUALITY_BEST"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             40,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeVertex.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeVertex.cginc",
         "name": "WIND_QUALITY_PALM"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             118,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeWind.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeWind.cginc",
         "name": "wind_cross"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             76,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\TerrainSplatmapCommon.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\TerrainSplatmapCommon.cginc",
         "name": "TERRAIN_SURFACE_OUTPUT"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             3,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "UNITY_PI"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             20,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "SCALED_NORMAL"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             25,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "LIGHTMAP_RGBM_SCALE"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             26,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "EMISSIVE_RGBM_SCALE"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             30,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "UNITY_SHOULD_SAMPLE_SH"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             189,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "TANGENT_SPACE_ROTATION"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             332,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "TRANSFORM_TEX"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             335,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "TRANSFORM_UV"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             615,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "UNITY_TRANSFER_DEPTH"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             616,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "UNITY_OUTPUT_DEPTH"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             618,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "UNITY_TRANSFER_DEPTH"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             619,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "UNITY_OUTPUT_DEPTH"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             621,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "DECODE_EYEDEPTH"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             622,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "COMPUTE_EYEDEPTH"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             623,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "COMPUTE_DEPTH_01"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             624,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "COMPUTE_VIEW_NORMAL"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             628,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "V2F_SCREEN_TYPE"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             742,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "V2F_SHADOW_CASTER_NOPOS"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             743,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "TRANSFER_SHADOW_CASTER_NOPOS_LEGACY"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             744,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "TRANSFER_SHADOW_CASTER_NOPOS"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             745,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "SHADOW_CASTER_FRAGMENT"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             750,
             10
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "V2F_SHADOW_CASTER_NOPOS"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             751,
             10
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "TRANSFER_SHADOW_CASTER_NOPOS_LEGACY"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             755,
             10
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "TRANSFER_SHADOW_CASTER_NOPOS"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             764,
             10
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "TRANSFER_SHADOW_CASTER_NOPOS_LEGACY"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             767,
             10
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "TRANSFER_SHADOW_CASTER_NOPOS"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             771,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "SHADOW_CASTER_FRAGMENT"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             776,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "V2F_SHADOW_CASTER"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             780,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "TRANSFER_SHADOW_CASTER_NORMALOFFSET"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             784,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "TRANSFER_SHADOW_CASTER"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             789,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "UNITY_OPAQUE_ALPHA"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             813,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "UNITY_CALC_FOG_FACTOR"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             816,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "UNITY_CALC_FOG_FACTOR"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             819,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "UNITY_CALC_FOG_FACTOR"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             821,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "UNITY_CALC_FOG_FACTOR"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             823,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "UNITY_FOG_COORDS_PACKED"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             827,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "UNITY_FOG_COORDS"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             831,
             10
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "UNITY_TRANSFER_FOG"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             834,
             10
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "UNITY_TRANSFER_FOG"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             837,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "UNITY_FOG_COORDS"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             838,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "UNITY_TRANSFER_FOG"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             840,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "UNITY_FOG_LERP_COLOR"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             847,
             10
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "UNITY_APPLY_FOG_COLOR"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             850,
             10
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "UNITY_APPLY_FOG_COLOR"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             853,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "UNITY_APPLY_FOG_COLOR"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             857,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "UNITY_APPLY_FOG"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             859,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "UNITY_APPLY_FOG"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             866,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "UNITY_DITHER_CROSSFADE_COORDS"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             867,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "UNITY_DITHER_CROSSFADE_COORDS_IDX"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             868,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "UNITY_TRANSFER_DITHER_CROSSFADE"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             869,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "UNITY_TRANSFER_DITHER_CROSSFADE_HPOS"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             876,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "UNITY_APPLY_DITHER_CROSSFADE"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             886,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "UNITY_DITHER_CROSSFADE_COORDS_IDX"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             887,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "UNITY_TRANSFER_DITHER_CROSSFADE"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             888,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "UNITY_TRANSFER_DITHER_CROSSFADE_HPOS"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             889,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "UNITY_APPLY_DITHER_CROSSFADE"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             906,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "V2F_SHADOW_COLLECTOR"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             907,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "TRANSFER_SHADOW_COLLECTOR"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             918,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "SAMPLE_SHADOW_COLLECTOR_SHADOW"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             923,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "COMPUTE_SHADOW_COLLECTOR_SHADOW"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             934,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "SHADOW_COLLECTOR_FRAGMENT"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             946,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
         "name": "SHADOW_COLLECTOR_FRAGMENT"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             15,
             10
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityPBSLighting.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityPBSLighting.cginc",
         "name": "UNITY_BRDF_PBS"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             17,
             10
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityPBSLighting.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityPBSLighting.cginc",
         "name": "UNITY_BRDF_PBS"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             19,
             10
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityPBSLighting.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityPBSLighting.cginc",
         "name": "UNITY_BRDF_PBS"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             21,
             10
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityPBSLighting.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityPBSLighting.cginc",
         "name": "UNITY_BRDF_PBS"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             24,
             10
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityPBSLighting.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityPBSLighting.cginc",
         "name": "UNITY_BRDF_PBS"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             38,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityPBSLighting.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityPBSLighting.cginc",
         "name": "UNITY_BRDF_PBS_LIGHTMAP_INDIRECT"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             41,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityPBSLighting.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityPBSLighting.cginc",
         "name": "UNITY_BRDF_GI"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             67,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityPBSLighting.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityPBSLighting.cginc",
         "name": "UNITY_GLOSSY_ENV_FROM_SURFACE"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             75,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityPBSLighting.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityPBSLighting.cginc",
         "name": "UNITY_GI"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             77,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityPBSLighting.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityPBSLighting.cginc",
         "name": "UNITY_GI"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             117,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityShaderVariables.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityShaderVariables.cginc",
         "name": "_World2Shadow"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             119,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityShaderVariables.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityShaderVariables.cginc",
         "name": "_World2Shadow1"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             120,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityShaderVariables.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityShaderVariables.cginc",
         "name": "_World2Shadow2"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             121,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityShaderVariables.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityShaderVariables.cginc",
         "name": "_World2Shadow3"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             130,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityShaderVariables.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityShaderVariables.cginc",
         "name": "UNITY_MATRIX_MVP"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             131,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityShaderVariables.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityShaderVariables.cginc",
         "name": "UNITY_MATRIX_MV"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             132,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityShaderVariables.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityShaderVariables.cginc",
         "name": "UNITY_MATRIX_IT_MV"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             145,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityShaderVariables.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityShaderVariables.cginc",
         "name": "UNITY_MATRIX_T_MV"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             156,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityShaderVariables.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityShaderVariables.cginc",
         "name": "UNITY_MATRIX_P"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             157,
             10
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityShaderVariables.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityShaderVariables.cginc",
         "name": "UNITY_LIGHTMODEL_AMBIENT"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             162,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityShaderVariables.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityShaderVariables.cginc",
         "name": "UNITY_MATRIX_V"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             163,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityShaderVariables.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityShaderVariables.cginc",
         "name": "UNITY_MATRIX_VP"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             226,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityShaderVariables.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityShaderVariables.cginc",
         "name": "UNITY_MATRIX_TEXTURE0"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             227,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityShaderVariables.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityShaderVariables.cginc",
         "name": "UNITY_MATRIX_TEXTURE1"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             228,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityShaderVariables.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityShaderVariables.cginc",
         "name": "UNITY_MATRIX_TEXTURE2"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             229,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityShaderVariables.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityShaderVariables.cginc",
         "name": "UNITY_MATRIX_TEXTURE3"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             10,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
         "name": "unity_LightGammaCorrectionConsts_PIDiv4"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             11,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
         "name": "unity_LightGammaCorrectionConsts_HalfDivPI"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             12,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
         "name": "unity_LightGammaCorrectionConsts_8"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             13,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
         "name": "unity_LightGammaCorrectionConsts_SqrtHalfPI"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             6,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardConfig.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardConfig.cginc",
         "name": "UNITY_SPECCUBE_LOD_EXPONENT"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             9,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardConfig.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardConfig.cginc",
         "name": "UNITY_SPECCUBE_LOD_STEPS"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             14,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardConfig.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardConfig.cginc",
         "name": "UNITY_CONSERVE_ENERGY"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             17,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardConfig.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardConfig.cginc",
         "name": "UNITY_CONSERVE_ENERGY_MONOCHROME"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             28,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardConfig.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardConfig.cginc",
         "name": "UNITY_SPECCUBE_BOX_PROJECTION"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             30,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardConfig.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardConfig.cginc",
         "name": "UNITY_SPECCUBE_BLENDING"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             34,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardConfig.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardConfig.cginc",
         "name": "UNITY_SAMPLE_FULL_SH_PER_PIXEL"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             38,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardConfig.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardConfig.cginc",
         "name": "UNITY_GLOSS_MATCHES_MARMOSET_TOOLBAG2"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             41,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardConfig.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardConfig.cginc",
         "name": "UNITY_BRDF_GGX"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             51,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardConfig.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardConfig.cginc",
         "name": "UNITY_TANGENT_ORTHONORMALIZE"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             62,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardConfig.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardConfig.cginc",
         "name": "UNITY_OPTIMIZE_TEXCUBELOD"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             67,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardConfig.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardConfig.cginc",
         "name": "UNITY_STANDARD_SIMPLE"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             153,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
         "name": "IN_VIEWDIR4PARALLAX"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             154,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
         "name": "IN_VIEWDIR4PARALLAX_FWDADD"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             156,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
         "name": "IN_VIEWDIR4PARALLAX"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             157,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
         "name": "IN_VIEWDIR4PARALLAX_FWDADD"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             161,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
         "name": "IN_WORLDPOS"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             163,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
         "name": "IN_WORLDPOS"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             165,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
         "name": "IN_LIGHTDIR_FWDADD"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             167,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
         "name": "FRAGMENT_SETUP"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             170,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
         "name": "FRAGMENT_SETUP_FWDADD"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             193,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
         "name": "UNITY_SETUP_BRDF_INPUT"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             7,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForwardSimple.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForwardSimple.cginc",
         "name": "GLOSSMAP"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             10,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForwardSimple.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForwardSimple.cginc",
         "name": "SPECULAR_HIGHLIGHTS"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             46,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForwardSimple.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForwardSimple.cginc",
         "name": "JOIN2"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             48,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForwardSimple.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForwardSimple.cginc",
         "name": "JOIN"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             49,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForwardSimple.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForwardSimple.cginc",
         "name": "UNIFORM_REFLECTIVITY"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             13,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardInput.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardInput.cginc",
         "name": "_TANGENT_TO_WORLD"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             17,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardInput.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardInput.cginc",
         "name": "_DETAIL"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             9,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardMeta.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardMeta.cginc",
         "name": "UNITY_PASS_META"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             16,
             9
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardShadow.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardShadow.cginc",
         "name": "UNITY_STANDARD_USE_DITHER_MASK"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             22,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardShadow.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardShadow.cginc",
         "name": "UNITY_STANDARD_USE_SHADOW_UVS"
     },
     {
+        "type": "builtin-marco",
         "pos": [
             27,
             8
         ],
-        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardShadow.cginc",
-        "type": "builtin-marco",
+        "path": "builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardShadow.cginc",
         "name": "UNITY_STANDARD_USE_SHADOW_OUTPUT_STRUCT"
     }
 ]
