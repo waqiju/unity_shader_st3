@@ -33,7 +33,8 @@ def generateFunctionList(symbolList):
             buf = f.read()
             f.close()
 
-            functionIter = re.finditer(r"^(inline[ \t]+)?[ \t]*[\w]+[ \t]+(\w+)[ \t]*\((([ \t]*(\w+[ \t]+)?\w+[ \t]+\w+)|([ \t]*\n))", buf, re.M)
+            functionIter = re.finditer(r"^(inline[ \t]+)?[ \t]*[\w]+[ \t]+(\w+)[ \t]*\((([ \t]*(\w+[ \t]+)?\w+[ \t]+\w)|([ \t]*\n)|([ \t]*\)))",
+                buf, re.M)
             for i in functionIter:
                 # todo, path截短
                 name = i.group(2)
