@@ -3,6 +3,7 @@ import re
 import json
 
 root = r"C:\Users\Administrator\AppData\Roaming\Sublime Text 3\Packages\UnityShader\builtin_shaders-5.3.4f1\CGIncludes"
+pluginRootPath = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
 class Symbol(object):
     def __init__(self, name = "", type = "", path = "", pos = (0,0)):
@@ -32,11 +33,12 @@ def generateFunctionList(symbolList):
             buf = f.read()
             f.close()
 
-            functionIter = re.finditer(r"^(inline\s)?[\w]+\s([\w]+)\(.*\)", buf, re.M)
+            functionIter = re.finditer(r"^(inline[ \t]+)?[ \t]*[\w]+[ \t]+(\w+)[ \t]*\((([ \t]*(\w+[ \t]+)?\w+[ \t]+\w+)|([ \t]*\n))", buf, re.M)
             for i in functionIter:
                 # todo, path截短
                 name = i.group(2)
                 path = os.path.join(root, filename)
+                path = path.replace(pluginRootPath+"\\", "")
                 lineNo = len(re.findall(r".*\n", buf[0:i.start()])) + 1
                 columnNo = re.search(i.group(2), i.group(0)).start()
                 pos = (lineNo, columnNo)
@@ -54,7 +56,7 @@ def generateDefineList(symbolList):
             buf = f.read()
             f.close()
 
-            functionIter = re.finditer(r"^[ \t]*#define\s(\w+)\b(?!\s*\n)", buf, re.M)
+            functionIter = re.finditer(r"^[\s]*#define[\s]+(\w+)\b(?!\s*\n)", buf, re.M)
             for i in functionIter:
                 name = i.group(1)
                 path = os.path.join(root, filename)
@@ -110,5 +112,5 @@ def generateCompletesFile():
     f.close()
 
 if __name__ == "__main__":
-    # generateSymbolList()
-    generateCompletesFile()
+    generateSymbolList()
+    # generateCompletesFile()

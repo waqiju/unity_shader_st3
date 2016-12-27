@@ -2,9 +2,10 @@ import sublime
 import sublime_plugin
 import os
 import json
-from .generateSymbolList import Symbol
+from .scripts.generateSymbolList import Symbol
 
-symbalMapFile = os.path.join( os.path.dirname(__file__), "builtin_shader.symbol" )
+pluginRootPath = os.path.abspath(os.path.dirname(__file__))
+symbalMapFile = os.path.join( pluginRootPath, "builtin_shader.symbol" )
 
 symbolMap = {}
 def init():
@@ -35,7 +36,10 @@ class ShaderGotoDefinitionCommand(sublime_plugin.TextCommand):
             sublime.status_message("Can not find definition '%s'" % (selectText))
 
     def gotoDefinition(self, symbol):
-        definitionView = self.view.window().open_file(symbol.path + ":" + str(symbol.pos[0]), sublime.ENCODED_POSITION)
+        print(pluginRootPath, symbol.path)
+        path = os.path.join(pluginRootPath, symbol.path + ":" + str(symbol.pos[0]))
+        print(path)
+        definitionView = self.view.window().open_file(path, sublime.ENCODED_POSITION)
         definitionView.set_read_only(True)
 
     def is_enabled(self):
