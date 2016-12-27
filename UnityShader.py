@@ -4,11 +4,10 @@ import os
 import json
 from .generateSymbolList import Symbol
 
-symbalMapFile = r"C:\Users\Administrator\AppData\Roaming\Sublime Text 3\Packages\UnityShader\buildin_shader.symbol"
+symbalMapFile = os.path.join( os.path.dirname(__file__), "builtin_shader.symbol" )
 
 symbolMap = {}
 def init():
-    print("init start")
     symbolMap.clear()
 
     f = open(symbalMapFile, 'r')
@@ -19,10 +18,6 @@ def init():
         if not symbolMap.get(name):
             symbolMap[name] = i
 
-    print(len(symbolMap))
-
-    print("init end")
-
 
 def plugin_loaded():
     sublime.set_timeout(init, 300);
@@ -30,12 +25,9 @@ def plugin_loaded():
 # shader_goto_definition
 class ShaderGotoDefinitionCommand(sublime_plugin.TextCommand):
     def run(self, edit):
-        print("run")
         selectText = self.view.substr(self.view.sel()[0])
         if len(selectText) == 0:
             selectText = self.view.substr(self.view.word(self.view.sel()[0]))
-
-        print(selectText)
 
         if symbolMap.get(selectText):
             self.gotoDefinition(symbolMap[selectText])
@@ -43,7 +35,13 @@ class ShaderGotoDefinitionCommand(sublime_plugin.TextCommand):
             sublime.status_message("Can not find definition '%s'" % (selectText))
 
     def gotoDefinition(self, symbol):
-        print("gotoDefinition")
-        print(symbol.path)
         definitionView = self.view.window().open_file(symbol.path + ":" + str(symbol.pos[0]), sublime.ENCODED_POSITION)
         definitionView.set_read_only(True)
+
+    def is_enabled(self):
+        filename = self.view.file_name()
+        ext = os.path.splitext(filename)[1][1:]
+        return ext == "shader" or ext == "cginc"
+
+    def is_visible(self):
+        return self.is_enabled()

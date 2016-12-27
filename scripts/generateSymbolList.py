@@ -20,7 +20,7 @@ def generateSymbolList():
     generateFunctionList(symbolList)
     generateDefineList(symbolList)
 
-    f = open('buildin_shader.symbol', 'w')
+    f = open(r'../builtin_shader.symbol', 'w')
     # json.dump(symbolList, f, default=lambda obj: obj.__dict__)
     json.dump(symbolList, f, default=lambda obj: obj.__dict__, indent = 4)
     f.close()
@@ -63,8 +63,9 @@ def generateDefineList(symbolList):
                 pos = (lineNo, columnNo)
                 symbolList.append(Symbol(name, "builtin-marco", path, pos))
 
+
 def printSymbolList():
-    f = open('buildin_shader.symbol', 'r')
+    f = open(r'../builtin_shader.symbol', 'r')
     symbolList = json.load(f, object_hook=Symbol.json2Symbol)
     f.close()
 
@@ -73,6 +74,41 @@ def printSymbolList():
         f.write("%s,\t%s,\t%s,\t%s\n" % (i.name, i.type, i.path, i.pos))
     f.close()
 
+def generateCompletesFile():
+    f = open(r'../builtin_shader.symbol', 'r')
+    symbolList = json.load(f, object_hook=Symbol.json2Symbol)
+    f.close()
+
+    f = open('builtin.sublime-completions', 'w')
+    f.write(r'''{
+    "scope": "source.shader",
+    "completions":
+    [
+''')
+    
+    isExists = set()
+    for i in symbolList:
+        if i.name in isExists:
+            continue
+        else:
+            isExists.add(i.name)
+
+        if i.type == "builtin-function":
+            line = '        { "trigger": "%s\\tbuiltin-function", "contents": "%s($0)"},\n' % (i.name, i.name)
+        elif i.type == "builtin-marco":
+            line = '        { "trigger": "%s\\tbuiltin-marco", "contents": "%s"},\n' % (i.name, i.name)
+        else:
+            line = '        { "trigger": "%s", "contents": "%s"},\n' % (i.name, i.name)
+
+
+        f.write(line)
+    
+    f.write(r'''    ]
+}
+''')
+
+    f.close()
+
 if __name__ == "__main__":
-    generateSymbolList()
-    printSymbolList()
+    # generateSymbolList()
+    generateCompletesFile()
