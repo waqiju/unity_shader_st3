@@ -1,0 +1,5 @@
+[
+    {"caption": "-", "id": "shader_start"},
+    {"command": "shader_goto_definition", "caption": "Shader Goto Definition"},
+    {"caption": "-", "id": "shader_end"},
+]

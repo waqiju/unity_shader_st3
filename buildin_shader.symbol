@@ -1,0 +1,2693 @@
+[
+    {
+        "name": "UnitySpotCookie",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
+        "type": "builtin-function",
+        "pos": [
+            134,
+            13
+        ]
+    },
+    {
+        "name": "UnitySpotAttenuate",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
+        "type": "builtin-function",
+        "pos": [
+            138,
+            13
+        ]
+    },
+    {
+        "name": "DirLightmapDiffuse",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\Lighting.cginc",
+        "type": "builtin-function",
+        "pos": [
+            174,
+            6
+        ]
+    },
+    {
+        "name": "SpeedTreeBillboardVert",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeBillboardCommon.cginc",
+        "type": "builtin-function",
+        "pos": [
+            33,
+            5
+        ]
+    },
+    {
+        "name": "SpeedTreeVert",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeCommon.cginc",
+        "type": "builtin-function",
+        "pos": [
+            55,
+            5
+        ]
+    },
+    {
+        "name": "SpeedTreeFrag",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeCommon.cginc",
+        "type": "builtin-function",
+        "pos": [
+            109,
+            5
+        ]
+    },
+    {
+        "name": "OffsetSpeedTreeVertex",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeVertex.cginc",
+        "type": "builtin-function",
+        "pos": [
+            52,
+            5
+        ]
+    },
+    {
+        "name": "UnpackNormalFromFloat",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeWind.cginc",
+        "type": "builtin-function",
+        "pos": [
+            30,
+            7
+        ]
+    },
+    {
+        "name": "CubicSmooth",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeWind.cginc",
+        "type": "builtin-function",
+        "pos": [
+            45,
+            7
+        ]
+    },
+    {
+        "name": "TriangleWave",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeWind.cginc",
+        "type": "builtin-function",
+        "pos": [
+            54,
+            7
+        ]
+    },
+    {
+        "name": "TrigApproximate",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeWind.cginc",
+        "type": "builtin-function",
+        "pos": [
+            63,
+            7
+        ]
+    },
+    {
+        "name": "RotationMatrix",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeWind.cginc",
+        "type": "builtin-function",
+        "pos": [
+            74,
+            9
+        ]
+    },
+    {
+        "name": "mul_float3x3_float3x3",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeWind.cginc",
+        "type": "builtin-function",
+        "pos": [
+            101,
+            9
+        ]
+    },
+    {
+        "name": "mul_float3x3_float3",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeWind.cginc",
+        "type": "builtin-function",
+        "pos": [
+            110,
+            7
+        ]
+    },
+    {
+        "name": "Twitch",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeWind.cginc",
+        "type": "builtin-function",
+        "pos": [
+            145,
+            6
+        ]
+    },
+    {
+        "name": "Turbulence",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeWind.cginc",
+        "type": "builtin-function",
+        "pos": [
+            230,
+            6
+        ]
+    },
+    {
+        "name": "GlobalWind",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeWind.cginc",
+        "type": "builtin-function",
+        "pos": [
+            246,
+            7
+        ]
+    },
+    {
+        "name": "BranchWind",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeWind.cginc",
+        "type": "builtin-function",
+        "pos": [
+            429,
+            7
+        ]
+    },
+    {
+        "name": "TerrainBillboardGrass",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\TerrainEngine.cginc",
+        "type": "builtin-function",
+        "pos": [
+            123,
+            5
+        ]
+    },
+    {
+        "name": "Squash",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\TerrainEngine.cginc",
+        "type": "builtin-function",
+        "pos": [
+            160,
+            14
+        ]
+    },
+    {
+        "name": "TerrainAnimateTree",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\TerrainEngine.cginc",
+        "type": "builtin-function",
+        "pos": [
+            184,
+            5
+        ]
+    },
+    {
+        "name": "TerrainBillboardTree",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\TerrainEngine.cginc",
+        "type": "builtin-function",
+        "pos": [
+            197,
+            5
+        ]
+    },
+    {
+        "name": "SmoothCurve",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\TerrainEngine.cginc",
+        "type": "builtin-function",
+        "pos": [
+            288,
+            7
+        ]
+    },
+    {
+        "name": "TriangleWave",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\TerrainEngine.cginc",
+        "type": "builtin-function",
+        "pos": [
+            291,
+            7
+        ]
+    },
+    {
+        "name": "SmoothTriangleWave",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\TerrainEngine.cginc",
+        "type": "builtin-function",
+        "pos": [
+            294,
+            7
+        ]
+    },
+    {
+        "name": "AnimateVertex",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\TerrainEngine.cginc",
+        "type": "builtin-function",
+        "pos": [
+            299,
+            14
+        ]
+    },
+    {
+        "name": "SplatmapVert",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\TerrainSplatmapCommon.cginc",
+        "type": "builtin-function",
+        "pos": [
+            22,
+            5
+        ]
+    },
+    {
+        "name": "SplatmapMix",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\TerrainSplatmapCommon.cginc",
+        "type": "builtin-function",
+        "pos": [
+            36,
+            5
+        ]
+    },
+    {
+        "name": "SplatmapMix",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\TerrainSplatmapCommon.cginc",
+        "type": "builtin-function",
+        "pos": [
+            38,
+            5
+        ]
+    },
+    {
+        "name": "SplatmapFinalColor",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\TerrainSplatmapCommon.cginc",
+        "type": "builtin-function",
+        "pos": [
+            79,
+            5
+        ]
+    },
+    {
+        "name": "SplatmapFinalPrepass",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\TerrainSplatmapCommon.cginc",
+        "type": "builtin-function",
+        "pos": [
+            89,
+            5
+        ]
+    },
+    {
+        "name": "SplatmapFinalGBuffer",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\TerrainSplatmapCommon.cginc",
+        "type": "builtin-function",
+        "pos": [
+            94,
+            5
+        ]
+    },
+    {
+        "name": "leaves",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityBuiltin2xTreeLibrary.cginc",
+        "type": "builtin-function",
+        "pos": [
+            30,
+            4
+        ]
+    },
+    {
+        "name": "bark",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityBuiltin2xTreeLibrary.cginc",
+        "type": "builtin-function",
+        "pos": [
+            75,
+            4
+        ]
+    },
+    {
+        "name": "IsGammaSpace",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-function",
+        "pos": [
+            60,
+            12
+        ]
+    },
+    {
+        "name": "UnityObjectToWorldDir",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-function",
+        "pos": [
+            112,
+            14
+        ]
+    },
+    {
+        "name": "UnityWorldToObjectDir",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-function",
+        "pos": [
+            118,
+            14
+        ]
+    },
+    {
+        "name": "UnityObjectToWorldNormal",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-function",
+        "pos": [
+            124,
+            14
+        ]
+    },
+    {
+        "name": "UnityWorldSpaceLightDir",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-function",
+        "pos": [
+            131,
+            14
+        ]
+    },
+    {
+        "name": "WorldSpaceLightDir",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-function",
+        "pos": [
+            146,
+            14
+        ]
+    },
+    {
+        "name": "ObjSpaceLightDir",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-function",
+        "pos": [
+            153,
+            14
+        ]
+    },
+    {
+        "name": "UnityWorldSpaceViewDir",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-function",
+        "pos": [
+            168,
+            14
+        ]
+    },
+    {
+        "name": "WorldSpaceViewDir",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-function",
+        "pos": [
+            175,
+            14
+        ]
+    },
+    {
+        "name": "ObjSpaceViewDir",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-function",
+        "pos": [
+            182,
+            14
+        ]
+    },
+    {
+        "name": "ShadeSH3Order",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-function",
+        "pos": [
+            310,
+            6
+        ]
+    },
+    {
+        "name": "VertexLight",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-function",
+        "pos": [
+            345,
+            14
+        ]
+    },
+    {
+        "name": "ParallaxOffset",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-function",
+        "pos": [
+            356,
+            14
+        ]
+    },
+    {
+        "name": "Luminance",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-function",
+        "pos": [
+            366,
+            12
+        ]
+    },
+    {
+        "name": "DecodeLightmapDoubleLDR",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-function",
+        "pos": [
+            438,
+            13
+        ]
+    },
+    {
+        "name": "DecodeLightmap",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-function",
+        "pos": [
+            445,
+            13
+        ]
+    },
+    {
+        "name": "DecodeRealtimeLightmap",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-function",
+        "pos": [
+            461,
+            13
+        ]
+    },
+    {
+        "name": "vert_img",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-function",
+        "pos": [
+            506,
+            8
+        ]
+    },
+    {
+        "name": "EncodeFloatRGBA",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-function",
+        "pos": [
+            516,
+            14
+        ]
+    },
+    {
+        "name": "DecodeFloatRGBA",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-function",
+        "pos": [
+            525,
+            13
+        ]
+    },
+    {
+        "name": "EncodeFloatRG",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-function",
+        "pos": [
+            532,
+            14
+        ]
+    },
+    {
+        "name": "DecodeFloatRG",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-function",
+        "pos": [
+            541,
+            13
+        ]
+    },
+    {
+        "name": "EncodeViewNormalStereo",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-function",
+        "pos": [
+            549,
+            14
+        ]
+    },
+    {
+        "name": "DecodeViewNormalStereo",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-function",
+        "pos": [
+            558,
+            14
+        ]
+    },
+    {
+        "name": "EncodeDepthNormal",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-function",
+        "pos": [
+            569,
+            14
+        ]
+    },
+    {
+        "name": "DecodeDepthNormal",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-function",
+        "pos": [
+            577,
+            12
+        ]
+    },
+    {
+        "name": "UnpackNormal",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-function",
+        "pos": [
+            591,
+            14
+        ]
+    },
+    {
+        "name": "Linear01Depth",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-function",
+        "pos": [
+            602,
+            13
+        ]
+    },
+    {
+        "name": "LinearEyeDepth",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-function",
+        "pos": [
+            607,
+            13
+        ]
+    },
+    {
+        "name": "UnityClipSpaceShadowCasterPos",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-function",
+        "pos": [
+            696,
+            7
+        ]
+    },
+    {
+        "name": "UnityApplyLinearShadowBias",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-function",
+        "pos": [
+            731,
+            7
+        ]
+    },
+    {
+        "name": "UnityDeferredComputeFadeDistance",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityDeferredLibrary.cginc",
+        "type": "builtin-function",
+        "pos": [
+            67,
+            6
+        ]
+    },
+    {
+        "name": "UnityDeferredComputeShadow",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityDeferredLibrary.cginc",
+        "type": "builtin-function",
+        "pos": [
+            73,
+            5
+        ]
+    },
+    {
+        "name": "ResetUnityLight",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityGlobalIllumination.cginc",
+        "type": "builtin-function",
+        "pos": [
+            56,
+            12
+        ]
+    },
+    {
+        "name": "ResetUnityGI",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityGlobalIllumination.cginc",
+        "type": "builtin-function",
+        "pos": [
+            63,
+            12
+        ]
+    },
+    {
+        "name": "UnityGI_Base",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityGlobalIllumination.cginc",
+        "type": "builtin-function",
+        "pos": [
+            79,
+            15
+        ]
+    },
+    {
+        "name": "UnityGI_IndirectSpecular",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityGlobalIllumination.cginc",
+        "type": "builtin-function",
+        "pos": [
+            154,
+            13
+        ]
+    },
+    {
+        "name": "GetSpecPowToMip",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
+        "type": "builtin-function",
+        "pos": [
+            255,
+            6
+        ]
+    },
+    {
+        "name": "Unity_SafeNormalize",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
+        "type": "builtin-function",
+        "pos": [
+            328,
+            13
+        ]
+    },
+    {
+        "name": "BRDF3_Direct",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
+        "type": "builtin-function",
+        "pos": [
+            474,
+            6
+        ]
+    },
+    {
+        "name": "BRDF3_Indirect",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
+        "type": "builtin-function",
+        "pos": [
+            482,
+            6
+        ]
+    },
+    {
+        "name": "WorldNormal",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
+        "type": "builtin-function",
+        "pos": [
+            93,
+            6
+        ]
+    },
+    {
+        "name": "PerPixelWorldNormal",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
+        "type": "builtin-function",
+        "pos": [
+            126,
+            6
+        ]
+    },
+    {
+        "name": "VertexGIForward",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
+        "type": "builtin-function",
+        "pos": [
+            309,
+            13
+        ]
+    },
+    {
+        "name": "MetallicSetup_Reflectivity",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForwardSimple.cginc",
+        "type": "builtin-function",
+        "pos": [
+            37,
+            5
+        ]
+    },
+    {
+        "name": "SpecularSetup_Reflectivity",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForwardSimple.cginc",
+        "type": "builtin-function",
+        "pos": [
+            42,
+            5
+        ]
+    },
+    {
+        "name": "TransformToTangentSpace",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForwardSimple.cginc",
+        "type": "builtin-function",
+        "pos": [
+            54,
+            6
+        ]
+    },
+    {
+        "name": "TangentSpaceLightingInput",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForwardSimple.cginc",
+        "type": "builtin-function",
+        "pos": [
+            60,
+            5
+        ]
+    },
+    {
+        "name": "FragmentSetupSimple",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForwardSimple.cginc",
+        "type": "builtin-function",
+        "pos": [
+            118,
+            19
+        ]
+    },
+    {
+        "name": "MainLightSimple",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForwardSimple.cginc",
+        "type": "builtin-function",
+        "pos": [
+            144,
+            11
+        ]
+    },
+    {
+        "name": "PerVertexGrazingTerm",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForwardSimple.cginc",
+        "type": "builtin-function",
+        "pos": [
+            153,
+            5
+        ]
+    },
+    {
+        "name": "PerVertexFresnelTerm",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForwardSimple.cginc",
+        "type": "builtin-function",
+        "pos": [
+            162,
+            5
+        ]
+    },
+    {
+        "name": "LightDirForSpecular",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForwardSimple.cginc",
+        "type": "builtin-function",
+        "pos": [
+            175,
+            6
+        ]
+    },
+    {
+        "name": "BRDF3DirectSimple",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForwardSimple.cginc",
+        "type": "builtin-function",
+        "pos": [
+            184,
+            6
+        ]
+    },
+    {
+        "name": "FragmentSetupSimpleAdd",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForwardSimple.cginc",
+        "type": "builtin-function",
+        "pos": [
+            288,
+            19
+        ]
+    },
+    {
+        "name": "LightSpaceNormal",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForwardSimple.cginc",
+        "type": "builtin-function",
+        "pos": [
+            320,
+            6
+        ]
+    },
+    {
+        "name": "TexCoords",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardInput.cginc",
+        "type": "builtin-function",
+        "pos": [
+            69,
+            7
+        ]
+    },
+    {
+        "name": "DetailMask",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardInput.cginc",
+        "type": "builtin-function",
+        "pos": [
+            77,
+            5
+        ]
+    },
+    {
+        "name": "Albedo",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardInput.cginc",
+        "type": "builtin-function",
+        "pos": [
+            82,
+            6
+        ]
+    },
+    {
+        "name": "Alpha",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardInput.cginc",
+        "type": "builtin-function",
+        "pos": [
+            107,
+            5
+        ]
+    },
+    {
+        "name": "Occlusion",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardInput.cginc",
+        "type": "builtin-function",
+        "pos": [
+            112,
+            5
+        ]
+    },
+    {
+        "name": "SpecularGloss",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardInput.cginc",
+        "type": "builtin-function",
+        "pos": [
+            124,
+            6
+        ]
+    },
+    {
+        "name": "MetallicGloss",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardInput.cginc",
+        "type": "builtin-function",
+        "pos": [
+            135,
+            6
+        ]
+    },
+    {
+        "name": "Emission",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardInput.cginc",
+        "type": "builtin-function",
+        "pos": [
+            146,
+            6
+        ]
+    },
+    {
+        "name": "NormalInTangentSpace",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardInput.cginc",
+        "type": "builtin-function",
+        "pos": [
+            156,
+            6
+        ]
+    },
+    {
+        "name": "SpecularStrength",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardUtils.cginc",
+        "type": "builtin-function",
+        "pos": [
+            9,
+            5
+        ]
+    },
+    {
+        "name": "OneMinusReflectivityFromMetallic",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardUtils.cginc",
+        "type": "builtin-function",
+        "pos": [
+            33,
+            12
+        ]
+    },
+    {
+        "name": "LerpOneTo",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardUtils.cginc",
+        "type": "builtin-function",
+        "pos": [
+            86,
+            5
+        ]
+    },
+    {
+        "name": "LerpWhiteTo",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardUtils.cginc",
+        "type": "builtin-function",
+        "pos": [
+            92,
+            6
+        ]
+    },
+    {
+        "name": "UnpackScaleNormal",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardUtils.cginc",
+        "type": "builtin-function",
+        "pos": [
+            98,
+            6
+        ]
+    },
+    {
+        "name": "BlendNormals",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardUtils.cginc",
+        "type": "builtin-function",
+        "pos": [
+            115,
+            6
+        ]
+    },
+    {
+        "name": "CreateTangentToWorldPerVertex",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardUtils.cginc",
+        "type": "builtin-function",
+        "pos": [
+            120,
+            8
+        ]
+    },
+    {
+        "name": "CalculateSurfaceGradient",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardUtils.cginc",
+        "type": "builtin-function",
+        "pos": [
+            213,
+            6
+        ]
+    },
+    {
+        "name": "PerturbNormal",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardUtils.cginc",
+        "type": "builtin-function",
+        "pos": [
+            221,
+            6
+        ]
+    },
+    {
+        "name": "CalculateSurfaceNormal",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardUtils.cginc",
+        "type": "builtin-function",
+        "pos": [
+            229,
+            6
+        ]
+    },
+    {
+        "name": "unityShadowCoord",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            11,
+            10
+        ]
+    },
+    {
+        "name": "unityShadowCoord2",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            12,
+            10
+        ]
+    },
+    {
+        "name": "unityShadowCoord3",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            13,
+            10
+        ]
+    },
+    {
+        "name": "unityShadowCoord",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            15,
+            10
+        ]
+    },
+    {
+        "name": "unityShadowCoord2",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            16,
+            10
+        ]
+    },
+    {
+        "name": "unityShadowCoord3",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            17,
+            10
+        ]
+    },
+    {
+        "name": "unityShadowCoord4",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            20,
+            9
+        ]
+    },
+    {
+        "name": "unityShadowCoord4",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            22,
+            9
+        ]
+    },
+    {
+        "name": "unityShadowCoord4x4",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            24,
+            9
+        ]
+    },
+    {
+        "name": "unityShadowCoord",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            26,
+            9
+        ]
+    },
+    {
+        "name": "unityShadowCoord2",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            27,
+            9
+        ]
+    },
+    {
+        "name": "unityShadowCoord3",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            28,
+            9
+        ]
+    },
+    {
+        "name": "unityShadowCoord4",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            29,
+            9
+        ]
+    },
+    {
+        "name": "unityShadowCoord4x4",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            30,
+            9
+        ]
+    },
+    {
+        "name": "SHADOW_COORDS",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            42,
+            8
+        ]
+    },
+    {
+        "name": "TRANSFER_SHADOW",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            47,
+            8
+        ]
+    },
+    {
+        "name": "TRANSFER_SHADOW",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            72,
+            8
+        ]
+    },
+    {
+        "name": "SHADOW_ATTENUATION",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            82,
+            8
+        ]
+    },
+    {
+        "name": "SHADOW_COORDS",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            89,
+            9
+        ]
+    },
+    {
+        "name": "TRANSFER_SHADOW",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            90,
+            9
+        ]
+    },
+    {
+        "name": "SHADOW_ATTENUATION",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            91,
+            9
+        ]
+    },
+    {
+        "name": "SHADOW_COORDS",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            97,
+            9
+        ]
+    },
+    {
+        "name": "TRANSFER_SHADOW",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            98,
+            9
+        ]
+    },
+    {
+        "name": "SHADOW_ATTENUATION",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            99,
+            9
+        ]
+    },
+    {
+        "name": "SHADOW_COORDS",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            104,
+            9
+        ]
+    },
+    {
+        "name": "TRANSFER_SHADOW",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            105,
+            9
+        ]
+    },
+    {
+        "name": "SHADOW_ATTENUATION",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            106,
+            9
+        ]
+    },
+    {
+        "name": "UNITY_LIGHT_ATTENUATION",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            125,
+            8
+        ]
+    },
+    {
+        "name": "UNITY_LIGHT_ATTENUATION",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            142,
+            8
+        ]
+    },
+    {
+        "name": "UNITY_LIGHT_ATTENUATION",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            149,
+            9
+        ]
+    },
+    {
+        "name": "UNITY_LIGHT_ATTENUATION",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            157,
+            8
+        ]
+    },
+    {
+        "name": "UNITY_LIGHT_ATTENUATION",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            165,
+            8
+        ]
+    },
+    {
+        "name": "LIGHTING_COORDS",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            178,
+            8
+        ]
+    },
+    {
+        "name": "TRANSFER_VERTEX_TO_FRAGMENT",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            179,
+            8
+        ]
+    },
+    {
+        "name": "LIGHT_ATTENUATION",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            180,
+            8
+        ]
+    },
+    {
+        "name": "LIGHTING_COORDS",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            184,
+            8
+        ]
+    },
+    {
+        "name": "TRANSFER_VERTEX_TO_FRAGMENT",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            185,
+            8
+        ]
+    },
+    {
+        "name": "LIGHT_ATTENUATION",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            186,
+            8
+        ]
+    },
+    {
+        "name": "LIGHTING_COORDS",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            190,
+            9
+        ]
+    },
+    {
+        "name": "TRANSFER_VERTEX_TO_FRAGMENT",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            191,
+            9
+        ]
+    },
+    {
+        "name": "LIGHT_ATTENUATION",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            192,
+            9
+        ]
+    },
+    {
+        "name": "LIGHTING_COORDS",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            196,
+            8
+        ]
+    },
+    {
+        "name": "TRANSFER_VERTEX_TO_FRAGMENT",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            197,
+            8
+        ]
+    },
+    {
+        "name": "LIGHT_ATTENUATION",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            198,
+            8
+        ]
+    },
+    {
+        "name": "LIGHTING_COORDS",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            202,
+            8
+        ]
+    },
+    {
+        "name": "TRANSFER_VERTEX_TO_FRAGMENT",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            203,
+            8
+        ]
+    },
+    {
+        "name": "LIGHT_ATTENUATION",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\AutoLight.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            204,
+            8
+        ]
+    },
+    {
+        "name": "UNITY_DIRBASIS",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\Lighting.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            166,
+            8
+        ]
+    },
+    {
+        "name": "unity_BillboardCameraPosition",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeBillboardCommon.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            13,
+            9
+        ]
+    },
+    {
+        "name": "unity_BillboardCameraXZAngle",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeBillboardCommon.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            14,
+            9
+        ]
+    },
+    {
+        "name": "mainTexUV",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeCommon.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            28,
+            8
+        ]
+    },
+    {
+        "name": "Detail",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeCommon.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            32,
+            9
+        ]
+    },
+    {
+        "name": "HueVariationAmount",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeCommon.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            42,
+            9
+        ]
+    },
+    {
+        "name": "SPEEDTREE_DATA_NORMAL",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeCommon.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            86,
+            9
+        ]
+    },
+    {
+        "name": "SPEEDTREE_COPY_NORMAL",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeCommon.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            87,
+            9
+        ]
+    },
+    {
+        "name": "SPEEDTREE_COPY_NORMAL",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeCommon.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            90,
+            9
+        ]
+    },
+    {
+        "name": "SPEEDTREE_COPY_FRAG",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeCommon.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            93,
+            8
+        ]
+    },
+    {
+        "name": "WIND_QUALITY_NONE",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeVertex.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            35,
+            8
+        ]
+    },
+    {
+        "name": "WIND_QUALITY_FASTEST",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeVertex.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            36,
+            8
+        ]
+    },
+    {
+        "name": "WIND_QUALITY_FAST",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeVertex.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            37,
+            8
+        ]
+    },
+    {
+        "name": "WIND_QUALITY_BETTER",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeVertex.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            38,
+            8
+        ]
+    },
+    {
+        "name": "WIND_QUALITY_BEST",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeVertex.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            39,
+            8
+        ]
+    },
+    {
+        "name": "WIND_QUALITY_PALM",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeVertex.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            40,
+            8
+        ]
+    },
+    {
+        "name": "wind_cross",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\SpeedTreeWind.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            119,
+            8
+        ]
+    },
+    {
+        "name": "TERRAIN_SURFACE_OUTPUT",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\TerrainSplatmapCommon.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            76,
+            9
+        ]
+    },
+    {
+        "name": "UNITY_PI",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            4,
+            8
+        ]
+    },
+    {
+        "name": "SCALED_NORMAL",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            21,
+            8
+        ]
+    },
+    {
+        "name": "LIGHTMAP_RGBM_SCALE",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            25,
+            8
+        ]
+    },
+    {
+        "name": "EMISSIVE_RGBM_SCALE",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            26,
+            8
+        ]
+    },
+    {
+        "name": "UNITY_SHOULD_SAMPLE_SH",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            30,
+            8
+        ]
+    },
+    {
+        "name": "TANGENT_SPACE_ROTATION",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            189,
+            8
+        ]
+    },
+    {
+        "name": "TRANSFORM_TEX",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            332,
+            8
+        ]
+    },
+    {
+        "name": "TRANSFORM_UV",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            335,
+            8
+        ]
+    },
+    {
+        "name": "UNITY_TRANSFER_DEPTH",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            615,
+            9
+        ]
+    },
+    {
+        "name": "UNITY_OUTPUT_DEPTH",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            616,
+            9
+        ]
+    },
+    {
+        "name": "UNITY_TRANSFER_DEPTH",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            618,
+            9
+        ]
+    },
+    {
+        "name": "UNITY_OUTPUT_DEPTH",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            619,
+            9
+        ]
+    },
+    {
+        "name": "DECODE_EYEDEPTH",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            621,
+            8
+        ]
+    },
+    {
+        "name": "COMPUTE_EYEDEPTH",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            622,
+            8
+        ]
+    },
+    {
+        "name": "COMPUTE_DEPTH_01",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            623,
+            8
+        ]
+    },
+    {
+        "name": "COMPUTE_VIEW_NORMAL",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            624,
+            8
+        ]
+    },
+    {
+        "name": "V2F_SCREEN_TYPE",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            628,
+            8
+        ]
+    },
+    {
+        "name": "V2F_SHADOW_CASTER_NOPOS",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            742,
+            9
+        ]
+    },
+    {
+        "name": "TRANSFER_SHADOW_CASTER_NOPOS_LEGACY",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            743,
+            9
+        ]
+    },
+    {
+        "name": "TRANSFER_SHADOW_CASTER_NOPOS",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            744,
+            9
+        ]
+    },
+    {
+        "name": "SHADOW_CASTER_FRAGMENT",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            745,
+            9
+        ]
+    },
+    {
+        "name": "V2F_SHADOW_CASTER_NOPOS",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            750,
+            10
+        ]
+    },
+    {
+        "name": "TRANSFER_SHADOW_CASTER_NOPOS_LEGACY",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            751,
+            10
+        ]
+    },
+    {
+        "name": "TRANSFER_SHADOW_CASTER_NOPOS",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            755,
+            10
+        ]
+    },
+    {
+        "name": "TRANSFER_SHADOW_CASTER_NOPOS_LEGACY",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            764,
+            10
+        ]
+    },
+    {
+        "name": "TRANSFER_SHADOW_CASTER_NOPOS",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            767,
+            10
+        ]
+    },
+    {
+        "name": "SHADOW_CASTER_FRAGMENT",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            771,
+            9
+        ]
+    },
+    {
+        "name": "V2F_SHADOW_CASTER",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            776,
+            8
+        ]
+    },
+    {
+        "name": "TRANSFER_SHADOW_CASTER_NORMALOFFSET",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            780,
+            8
+        ]
+    },
+    {
+        "name": "TRANSFER_SHADOW_CASTER",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            784,
+            8
+        ]
+    },
+    {
+        "name": "UNITY_OPAQUE_ALPHA",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            790,
+            8
+        ]
+    },
+    {
+        "name": "UNITY_CALC_FOG_FACTOR",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            813,
+            9
+        ]
+    },
+    {
+        "name": "UNITY_CALC_FOG_FACTOR",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            816,
+            9
+        ]
+    },
+    {
+        "name": "UNITY_CALC_FOG_FACTOR",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            819,
+            9
+        ]
+    },
+    {
+        "name": "UNITY_CALC_FOG_FACTOR",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            821,
+            9
+        ]
+    },
+    {
+        "name": "UNITY_FOG_COORDS_PACKED",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            824,
+            8
+        ]
+    },
+    {
+        "name": "UNITY_FOG_COORDS",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            827,
+            9
+        ]
+    },
+    {
+        "name": "UNITY_TRANSFER_FOG",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            831,
+            10
+        ]
+    },
+    {
+        "name": "UNITY_TRANSFER_FOG",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            834,
+            10
+        ]
+    },
+    {
+        "name": "UNITY_FOG_COORDS",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            837,
+            9
+        ]
+    },
+    {
+        "name": "UNITY_TRANSFER_FOG",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            838,
+            9
+        ]
+    },
+    {
+        "name": "UNITY_FOG_LERP_COLOR",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            841,
+            8
+        ]
+    },
+    {
+        "name": "UNITY_APPLY_FOG_COLOR",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            847,
+            10
+        ]
+    },
+    {
+        "name": "UNITY_APPLY_FOG_COLOR",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            850,
+            10
+        ]
+    },
+    {
+        "name": "UNITY_APPLY_FOG_COLOR",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            853,
+            9
+        ]
+    },
+    {
+        "name": "UNITY_APPLY_FOG",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            857,
+            9
+        ]
+    },
+    {
+        "name": "UNITY_APPLY_FOG",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            859,
+            9
+        ]
+    },
+    {
+        "name": "UNITY_DITHER_CROSSFADE_COORDS",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            866,
+            9
+        ]
+    },
+    {
+        "name": "UNITY_DITHER_CROSSFADE_COORDS_IDX",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            867,
+            9
+        ]
+    },
+    {
+        "name": "UNITY_TRANSFER_DITHER_CROSSFADE",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            868,
+            9
+        ]
+    },
+    {
+        "name": "UNITY_TRANSFER_DITHER_CROSSFADE_HPOS",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            869,
+            9
+        ]
+    },
+    {
+        "name": "UNITY_APPLY_DITHER_CROSSFADE",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            876,
+            9
+        ]
+    },
+    {
+        "name": "UNITY_DITHER_CROSSFADE_COORDS_IDX",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            886,
+            9
+        ]
+    },
+    {
+        "name": "UNITY_TRANSFER_DITHER_CROSSFADE",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            887,
+            9
+        ]
+    },
+    {
+        "name": "UNITY_TRANSFER_DITHER_CROSSFADE_HPOS",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            888,
+            9
+        ]
+    },
+    {
+        "name": "UNITY_APPLY_DITHER_CROSSFADE",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            889,
+            9
+        ]
+    },
+    {
+        "name": "V2F_SHADOW_COLLECTOR",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            906,
+            8
+        ]
+    },
+    {
+        "name": "TRANSFER_SHADOW_COLLECTOR",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            907,
+            8
+        ]
+    },
+    {
+        "name": "SAMPLE_SHADOW_COLLECTOR_SHADOW",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            918,
+            8
+        ]
+    },
+    {
+        "name": "COMPUTE_SHADOW_COLLECTOR_SHADOW",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            923,
+            8
+        ]
+    },
+    {
+        "name": "SHADOW_COLLECTOR_FRAGMENT",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            934,
+            8
+        ]
+    },
+    {
+        "name": "SHADOW_COLLECTOR_FRAGMENT",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityCG.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            946,
+            8
+        ]
+    },
+    {
+        "name": "UNITY_BRDF_PBS",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityPBSLighting.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            15,
+            10
+        ]
+    },
+    {
+        "name": "UNITY_BRDF_PBS",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityPBSLighting.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            17,
+            10
+        ]
+    },
+    {
+        "name": "UNITY_BRDF_PBS",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityPBSLighting.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            19,
+            10
+        ]
+    },
+    {
+        "name": "UNITY_BRDF_PBS",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityPBSLighting.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            21,
+            10
+        ]
+    },
+    {
+        "name": "UNITY_BRDF_PBS",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityPBSLighting.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            24,
+            10
+        ]
+    },
+    {
+        "name": "UNITY_BRDF_PBS_LIGHTMAP_INDIRECT",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityPBSLighting.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            38,
+            9
+        ]
+    },
+    {
+        "name": "UNITY_BRDF_GI",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityPBSLighting.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            41,
+            9
+        ]
+    },
+    {
+        "name": "UNITY_GLOSSY_ENV_FROM_SURFACE",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityPBSLighting.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            68,
+            8
+        ]
+    },
+    {
+        "name": "UNITY_GI",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityPBSLighting.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            75,
+            9
+        ]
+    },
+    {
+        "name": "UNITY_GI",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityPBSLighting.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            77,
+            9
+        ]
+    },
+    {
+        "name": "_World2Shadow",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityShaderVariables.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            118,
+            8
+        ]
+    },
+    {
+        "name": "_World2Shadow1",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityShaderVariables.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            119,
+            8
+        ]
+    },
+    {
+        "name": "_World2Shadow2",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityShaderVariables.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            120,
+            8
+        ]
+    },
+    {
+        "name": "_World2Shadow3",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityShaderVariables.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            121,
+            8
+        ]
+    },
+    {
+        "name": "UNITY_MATRIX_MVP",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityShaderVariables.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            130,
+            9
+        ]
+    },
+    {
+        "name": "UNITY_MATRIX_MV",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityShaderVariables.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            131,
+            9
+        ]
+    },
+    {
+        "name": "UNITY_MATRIX_IT_MV",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityShaderVariables.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            132,
+            9
+        ]
+    },
+    {
+        "name": "UNITY_MATRIX_T_MV",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityShaderVariables.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            145,
+            9
+        ]
+    },
+    {
+        "name": "UNITY_MATRIX_P",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityShaderVariables.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            156,
+            9
+        ]
+    },
+    {
+        "name": "UNITY_LIGHTMODEL_AMBIENT",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityShaderVariables.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            158,
+            9
+        ]
+    },
+    {
+        "name": "UNITY_MATRIX_V",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityShaderVariables.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            162,
+            9
+        ]
+    },
+    {
+        "name": "UNITY_MATRIX_VP",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityShaderVariables.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            163,
+            9
+        ]
+    },
+    {
+        "name": "UNITY_MATRIX_TEXTURE0",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityShaderVariables.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            226,
+            8
+        ]
+    },
+    {
+        "name": "UNITY_MATRIX_TEXTURE1",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityShaderVariables.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            227,
+            8
+        ]
+    },
+    {
+        "name": "UNITY_MATRIX_TEXTURE2",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityShaderVariables.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            228,
+            8
+        ]
+    },
+    {
+        "name": "UNITY_MATRIX_TEXTURE3",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityShaderVariables.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            229,
+            8
+        ]
+    },
+    {
+        "name": "unity_LightGammaCorrectionConsts_PIDiv4",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            10,
+            8
+        ]
+    },
+    {
+        "name": "unity_LightGammaCorrectionConsts_HalfDivPI",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            11,
+            8
+        ]
+    },
+    {
+        "name": "unity_LightGammaCorrectionConsts_8",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            12,
+            8
+        ]
+    },
+    {
+        "name": "unity_LightGammaCorrectionConsts_SqrtHalfPI",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardBRDF.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            13,
+            8
+        ]
+    },
+    {
+        "name": "UNITY_SPECCUBE_LOD_EXPONENT",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardConfig.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            6,
+            8
+        ]
+    },
+    {
+        "name": "UNITY_SPECCUBE_LOD_STEPS",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardConfig.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            9,
+            8
+        ]
+    },
+    {
+        "name": "UNITY_CONSERVE_ENERGY",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardConfig.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            14,
+            8
+        ]
+    },
+    {
+        "name": "UNITY_CONSERVE_ENERGY_MONOCHROME",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardConfig.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            17,
+            8
+        ]
+    },
+    {
+        "name": "UNITY_SPECCUBE_BOX_PROJECTION",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardConfig.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            28,
+            9
+        ]
+    },
+    {
+        "name": "UNITY_SPECCUBE_BLENDING",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardConfig.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            30,
+            9
+        ]
+    },
+    {
+        "name": "UNITY_SAMPLE_FULL_SH_PER_PIXEL",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardConfig.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            34,
+            8
+        ]
+    },
+    {
+        "name": "UNITY_GLOSS_MATCHES_MARMOSET_TOOLBAG2",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardConfig.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            38,
+            8
+        ]
+    },
+    {
+        "name": "UNITY_BRDF_GGX",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardConfig.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            41,
+            8
+        ]
+    },
+    {
+        "name": "UNITY_TANGENT_ORTHONORMALIZE",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardConfig.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            51,
+            8
+        ]
+    },
+    {
+        "name": "UNITY_OPTIMIZE_TEXCUBELOD",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardConfig.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            62,
+            9
+        ]
+    },
+    {
+        "name": "UNITY_STANDARD_SIMPLE",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardConfig.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            67,
+            9
+        ]
+    },
+    {
+        "name": "IN_VIEWDIR4PARALLAX",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            153,
+            9
+        ]
+    },
+    {
+        "name": "IN_VIEWDIR4PARALLAX_FWDADD",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            154,
+            9
+        ]
+    },
+    {
+        "name": "IN_VIEWDIR4PARALLAX",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            156,
+            9
+        ]
+    },
+    {
+        "name": "IN_VIEWDIR4PARALLAX_FWDADD",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            157,
+            9
+        ]
+    },
+    {
+        "name": "IN_WORLDPOS",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            161,
+            9
+        ]
+    },
+    {
+        "name": "IN_WORLDPOS",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            163,
+            9
+        ]
+    },
+    {
+        "name": "IN_LIGHTDIR_FWDADD",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            166,
+            8
+        ]
+    },
+    {
+        "name": "FRAGMENT_SETUP",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            168,
+            8
+        ]
+    },
+    {
+        "name": "FRAGMENT_SETUP_FWDADD",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            171,
+            8
+        ]
+    },
+    {
+        "name": "UNITY_SETUP_BRDF_INPUT",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCore.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            193,
+            9
+        ]
+    },
+    {
+        "name": "GLOSSMAP",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForwardSimple.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            7,
+            8
+        ]
+    },
+    {
+        "name": "SPECULAR_HIGHLIGHTS",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForwardSimple.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            10,
+            9
+        ]
+    },
+    {
+        "name": "JOIN2",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForwardSimple.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            47,
+            8
+        ]
+    },
+    {
+        "name": "JOIN",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForwardSimple.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            48,
+            8
+        ]
+    },
+    {
+        "name": "UNIFORM_REFLECTIVITY",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardCoreForwardSimple.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            49,
+            8
+        ]
+    },
+    {
+        "name": "_TANGENT_TO_WORLD",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardInput.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            13,
+            9
+        ]
+    },
+    {
+        "name": "_DETAIL",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardInput.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            17,
+            9
+        ]
+    },
+    {
+        "name": "UNITY_PASS_META",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardMeta.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            9,
+            8
+        ]
+    },
+    {
+        "name": "UNITY_STANDARD_USE_DITHER_MASK",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardShadow.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            16,
+            9
+        ]
+    },
+    {
+        "name": "UNITY_STANDARD_USE_SHADOW_UVS",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardShadow.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            22,
+            8
+        ]
+    },
+    {
+        "name": "UNITY_STANDARD_USE_SHADOW_OUTPUT_STRUCT",
+        "path": "C:\\Users\\Administrator\\AppData\\Roaming\\Sublime Text 3\\Packages\\UnityShader\\builtin_shaders-5.3.4f1\\CGIncludes\\UnityStandardShadow.cginc",
+        "type": "builtin-marco",
+        "pos": [
+            27,
+            8
+        ]
+    }
+]
