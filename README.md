@@ -1,4 +1,4 @@
-# UnityShader
+# UnityShaderST3
 A Sublime Text Plugin for Unity Shader
 
 # Installtion
