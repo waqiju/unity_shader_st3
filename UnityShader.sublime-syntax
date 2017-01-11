@@ -62,7 +62,7 @@ contexts:
 
   subshader:
     - meta_scope: debug.subshader.shader
-    - match: \b(Category|SeparateSpecular|Fog|Material|ColorMaterial|Name|Tags|LOD|Cull|Blend|AlphaTest|ColorMask|Lighting|ZTest|ZWrite|BindChannels|Pass|return|ENDCG)\b
+    - match: \b(Category|SeparateSpecular|Fog|Material|ColorMaterial|Name|UsePass|Tags|LOD|Cull|Blend|AlphaTest|ColorMask|Lighting|ZTest|ZWrite|BindChannels|Pass|return|ENDCG)\b
       scope: keyword.control.shader
     - match: CGPROGRAM|CGINCLUDE
       scope: keyword.control.shader
