@@ -20,6 +20,7 @@ def generateSymbolList():
     symbolList = []
     generateFunctionList(symbolList)
     generateDefineList(symbolList)
+    generateVariableList(symbolList)
 
     f = open(r'../builtin_shader.symbol', 'w')
     # json.dump(symbolList, f, default=lambda obj: obj.__dict__)
@@ -67,6 +68,60 @@ def generateDefineList(symbolList):
                 pos = (lineNo, columnNo)
                 symbolList.append(Symbol(name, "builtin-marco", path, pos))
 
+def generateVariableList(symbolList):
+    for path, folders, files in os.walk(root):
+        for filename in files:
+
+            if not filename in ["UnityShaderVariables.cginc", "UnityLightingCommon.cginc", "Lighting.cginc", "AutoLight.cginc"]:
+                continue
+
+            f = open(os.path.join(root, filename))
+            buf = f.read()
+            f.close()
+
+            variablePattern = r"(uniform[\s]*)?(((float|half|fixed)([2-4](x[2-4])?)?)|sampler(CUBE|[23]D))[\s]*([\w]*)(\[\d*\])?\s*;"
+            # sometimes, define statement can break above rule 
+            variablePattern2 = r"(uniform[\s]*)(\w+)[\s]*([\w]*)(\[\d*\])?\s*;"
+
+            lineMatchIter = re.finditer(".*\n", buf)
+            for index, line in enumerate(lineMatchIter):
+                lineBuf = line.group()
+                if re.search("\(", lineBuf):
+                    match = re.search("\(", lineBuf)
+                    skipToBracketEnd(lineMatchIter, lineBuf[match.end():], "\)")
+                elif re.search("{", lineBuf):
+                    match = re.search("{", lineBuf)
+                    skipToBracketEnd(lineMatchIter, lineBuf[match.end():], "}")
+                elif re.search(variablePattern, lineBuf):
+                    match = re.search(variablePattern, lineBuf)
+                    name = match.group(8)
+                    fillVariableRecord(symbolList, name, root, filename, index+1, line)
+                elif re.search(variablePattern2, lineBuf):
+                    match = re.search(variablePattern2, lineBuf)
+                    name = match.group(3)
+                    fillVariableRecord(symbolList, name, root, filename, index+1, line)
+                else:
+                    pass
+
+def skipToBracketEnd(lineMatchIter, lineBuf, bracket):
+    while (True):
+        if re.search(bracket, lineBuf):
+            return
+        elif re.search("\(", lineBuf):
+            match = re.search("\(", lineBuf)
+            skipToBracketEnd(lineMatchIter, lineBuf[match.end():], "\)")
+        elif re.search("{", lineBuf):
+            match = re.search("{", lineBuf)
+            skipToBracketEnd(lineMatchIter, lineBuf[match.end():], "}")
+
+        lineBuf = next(lineMatchIter).group(0)
+
+def fillVariableRecord(symbolList, name, root, filename, lineNo, lineMatch):
+    path = os.path.join(root, filename)
+    path = path.replace(pluginRootPath+"\\", "")
+    columnNo = re.search(name, lineMatch.group(0)).start()
+    pos = (lineNo, columnNo)
+    symbolList.append(Symbol(name, "builtin-variable", path, pos))
 
 def printSymbolList():
     f = open(r'../builtin_shader.symbol', 'r')
@@ -83,7 +138,7 @@ def generateCompletesFile():
     symbolList = json.load(f, object_hook=Symbol.json2Symbol)
     f.close()
 
-    f = open('builtin.sublime-completions', 'w')
+    f = open('../builtin.sublime-completions', 'w')
     f.write(r'''{
     "scope": "source.shader",
     "completions":
@@ -101,9 +156,10 @@ def generateCompletesFile():
             line = '        { "trigger": "%s\\tbuiltin-function", "contents": "%s($0)"},\n' % (i.name, i.name)
         elif i.type == "builtin-marco":
             line = '        { "trigger": "%s\\tbuiltin-marco", "contents": "%s"},\n' % (i.name, i.name)
+        elif i.type == "builtin-variable":
+            line = '        { "trigger": "%s\\tbuiltin-variable", "contents": "%s"},\n' % (i.name, i.name)
         else:
             line = '        { "trigger": "%s", "contents": "%s"},\n' % (i.name, i.name)
-
 
         f.write(line)
     
@@ -115,4 +171,4 @@ def generateCompletesFile():
 
 if __name__ == "__main__":
     generateSymbolList()
-    # generateCompletesFile()
+    generateCompletesFile()
