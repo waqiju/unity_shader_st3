@@ -19,7 +19,11 @@ def readFile(path):
         trigger = i.group(1)
         content = i.group(2)
         # print(trigger)
-        shortTrigger = re.search(r"^(\w+)(\\t.*)?$", trigger).group(1)
+        regMatch = re.search(r"^(\w+)(\\t.*)?$", trigger)
+        if regMatch:
+            shortTrigger = regMatch.group(1)
+        else:
+            shortTrigger = trigger
         r = Record(trigger, content, shortTrigger)
         records[shortTrigger] = r
         # print(r.trigger, r.content)
@@ -50,7 +54,7 @@ def Sub(a, b):
     for k,v in b.items():
         if a.get(k):
             a.pop(k)
-            print("Del: ", k)
+            # print("Del: ", k)
 
     print("After Sub, len(a) = %s len(b) = %s" % (len(a), len(b)))
 
@@ -68,9 +72,7 @@ def Add(a, b):
 
 cg = readFile(r"C:\Users\Administrator\AppData\Roaming\Sublime Text 3\Packages\UnityShader\cg.sublime-completions")
 builtin = readFile(r"C:\Users\Administrator\AppData\Roaming\Sublime Text 3\Packages\UnityShader\builtin.sublime-completions")
-unity5 = readFile(r"C:\Users\Administrator\Desktop\Tmp\unity_5.sublime-completions")
-unity_shader_api = readFile(r"C:\Users\Administrator\Desktop\Tmp\unity_shader_api.sublime-completions")
 globalComletions = readFile(r"C:\Users\Administrator\AppData\Roaming\Sublime Text 3\Packages\UnityShader\global.sublime-completions")
-Add(builtin, unity5)
-# Sub(builtin, unity_shader_api)
+# Add(cg, builtin)
+Sub(globalComletions, builtin)
 # writeFile(globalComletions, r"C:\Users\Administrator\AppData\Roaming\Sublime Text 3\Packages\UnityShader\global.sublime-completions")

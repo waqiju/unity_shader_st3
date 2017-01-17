@@ -2,23 +2,23 @@ import sublime
 import sublime_plugin
 import os
 import json
-from .scripts.generateSymbolList import Symbol
+from .scripts import config
+from .scripts import symbol_list
+from .scripts.symbol_list import Symbol
+from .scripts.common import pluginRootPath
 
-pluginRootPath = os.path.abspath(os.path.dirname(__file__))
 symbalMapFile = os.path.join( pluginRootPath, "builtin_shader.symbol" )
-
 symbolMap = {}
+
 def init():
-    symbolMap.clear()
+    settings = sublime.load_settings("UnityShader.sublime-settings")
+    settings.add_on_change("unity_version", reset)
+    reset()
 
-    f = open(symbalMapFile, 'r')
-    symbolList = json.load(f, object_hook=Symbol.json2Symbol)
-
-    for i in symbolList:
-        name = i.name
-        if not symbolMap.get(name):
-            symbolMap[name] = i
-
+def reset():
+    if not _isUnityVersionConsistent():
+        _generateSymbolAndCompletions()
+    loadSymbolList()
 
 def plugin_loaded():
     sublime.set_timeout(init, 300);
@@ -49,3 +49,40 @@ class ShaderGotoDefinitionCommand(sublime_plugin.TextCommand):
 
     def is_visible(self):
         return self.is_enabled()
+
+def loadSymbolList():
+    symbolMap.clear()
+
+    f = open(symbalMapFile, 'r')
+    symbolList = json.load(f, object_hook=Symbol.json2Symbol)
+
+    for i in symbolList:
+        name = i.name
+        if not symbolMap.get(name):
+            symbolMap[name] = i
+
+def _isUnityVersionConsistent():
+    settings = sublime.load_settings("UnityShader.sublime-settings")
+    targetVersion = settings.get("unity_version", "0.0.0")
+    workingVersion = config.get().get("unity_version", "0.0.0")
+    return targetVersion == workingVersion
+
+def _generateSymbolAndCompletions():
+    settings = sublime.load_settings("UnityShader.sublime-settings")
+    targetVersion = settings.get("unity_version", "0.0.0")
+    candidates = list(filter(lambda x: targetVersion in x, os.listdir(pluginRootPath)))
+    if len(candidates) <= 0:
+        sublime.error_message("UnityShader: unity version setting is wrong!")
+        return
+
+    builtinShaderFolderPath = os.path.join(pluginRootPath, candidates[0], "CGIncludes")
+    symbol_list.generateSymbolList(builtinShaderFolderPath)
+    symbol_list.generateCompletesFile()
+
+    _modifyLocalConfigVersion(targetVersion)
+    sublime.message_dialog("UnityShader: toggle unity version success :-)\nWorking version is %s" % targetVersion)
+
+def _modifyLocalConfigVersion(version):
+    d = config.get()
+    d["unity_version"] = version
+    config.save(d)

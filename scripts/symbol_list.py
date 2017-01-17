@@ -1,9 +1,10 @@
 import os
 import re
 import json
-
-root = r"C:\Users\Administrator\AppData\Roaming\Sublime Text 3\Packages\UnityShader\builtin_shaders-5.3.4f1\CGIncludes"
-pluginRootPath = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+try:
+    from common import pluginRootPath
+except:
+    from .common import pluginRootPath
 
 class Symbol(object):
     def __init__(self, name = "", type = "", path = "", pos = (0,0)):
@@ -16,7 +17,11 @@ class Symbol(object):
     def json2Symbol(d):
         return Symbol(d['name'], d['type'], d['path'], d['pos'])
 
-def generateSymbolList():
+# builtin_shader root path
+root = ""
+def generateSymbolList(beginPath):
+    global root
+    root = beginPath
     symbolList = []
     generateFunctionList(symbolList)
     generateDefineList(symbolList)
@@ -88,35 +93,35 @@ def generateVariableList(symbolList):
                 lineBuf = line.group()
                 if re.search("\(", lineBuf):
                     match = re.search("\(", lineBuf)
-                    skipToBracketEnd(lineMatchIter, lineBuf[match.end():], "\)")
+                    _skipToBracketEnd(lineMatchIter, lineBuf[match.end():], "\)")
                 elif re.search("{", lineBuf):
                     match = re.search("{", lineBuf)
-                    skipToBracketEnd(lineMatchIter, lineBuf[match.end():], "}")
+                    _skipToBracketEnd(lineMatchIter, lineBuf[match.end():], "}")
                 elif re.search(variablePattern, lineBuf):
                     match = re.search(variablePattern, lineBuf)
                     name = match.group(8)
-                    fillVariableRecord(symbolList, name, root, filename, index+1, line)
+                    _fillVariableRecord(symbolList, name, root, filename, index+1, line)
                 elif re.search(variablePattern2, lineBuf):
                     match = re.search(variablePattern2, lineBuf)
                     name = match.group(3)
-                    fillVariableRecord(symbolList, name, root, filename, index+1, line)
+                    _fillVariableRecord(symbolList, name, root, filename, index+1, line)
                 else:
                     pass
 
-def skipToBracketEnd(lineMatchIter, lineBuf, bracket):
+def _skipToBracketEnd(lineMatchIter, lineBuf, bracket):
     while (True):
         if re.search(bracket, lineBuf):
             return
         elif re.search("\(", lineBuf):
             match = re.search("\(", lineBuf)
-            skipToBracketEnd(lineMatchIter, lineBuf[match.end():], "\)")
+            _skipToBracketEnd(lineMatchIter, lineBuf[match.end():], "\)")
         elif re.search("{", lineBuf):
             match = re.search("{", lineBuf)
-            skipToBracketEnd(lineMatchIter, lineBuf[match.end():], "}")
+            _skipToBracketEnd(lineMatchIter, lineBuf[match.end():], "}")
 
         lineBuf = next(lineMatchIter).group(0)
 
-def fillVariableRecord(symbolList, name, root, filename, lineNo, lineMatch):
+def _fillVariableRecord(symbolList, name, root, filename, lineNo, lineMatch):
     path = os.path.join(root, filename)
     path = path.replace(pluginRootPath+"\\", "")
     columnNo = re.search(name, lineMatch.group(0)).start()
@@ -134,11 +139,13 @@ def printSymbolList():
     f.close()
 
 def generateCompletesFile():
-    f = open(r'../builtin_shader.symbol', 'r')
+    symbolFile = os.path.join(pluginRootPath, 'builtin_shader.symbol')
+    f = open( symbolFile, 'r')
     symbolList = json.load(f, object_hook=Symbol.json2Symbol)
     f.close()
 
-    f = open('../builtin.sublime-completions', 'w')
+    completesFile = os.path.join(pluginRootPath, 'builtin.sublime-completions')
+    f = open(completesFile, 'w')
     f.write(r'''{
     "scope": "source.shader",
     "completions":
@@ -170,5 +177,6 @@ def generateCompletesFile():
     f.close()
 
 if __name__ == "__main__":
-    generateSymbolList()
+    root = r"C:\Users\Administrator\AppData\Roaming\Sublime Text 3\Packages\UnityShader\builtin_shaders-5.3.4f1\CGIncludes"
+    generateSymbolList(root)
     generateCompletesFile()
