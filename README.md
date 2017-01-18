@@ -6,7 +6,7 @@ UnityShaderST3 aim at improving the experience of reading and writing Unity Shad
 - Code Completions
 - Goto Definition
 
-## Feature
+## Features
 - Comprehensive syntax highlight rules for .shader and .cginc files
 - Provides a wide source of word hints for code completions, such as keywords, cg functions and Unity3D built-in marcos/variables/functions etc
 - Alterable Unity3D version in response to incompatibility among different Unity3D releases. For Detail, please see Menu->Peferences->Package Settings->Unity Shader->Setting - Default
@@ -17,7 +17,7 @@ UnityShaderST3 aim at improving the experience of reading and writing Unity Shad
 1. Download the project as zip
 2. Unzip the zip file, rename the folder as UnityShader and move it to sublime text's package folder (Menu->Preferences->Browse Packages)
 
-## Flaw
+## Flaws
 - Lacking of testing in MacOS platform. Since I rarely used to working in MacOS platform. But it's welcome for your feedback.
 - Code completion is working in global scope. Sometimes, it became a little verbose.
 
