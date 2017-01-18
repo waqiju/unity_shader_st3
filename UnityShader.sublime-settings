@@ -1,3 +1,6 @@
 {
+    // 1. plz follow the format as below, "X.X.X"
+    // 2. make sure the corresponding built-in shader folder already place in the plugin package folder. Keep the same as "builtin_shaders-5.3.4f1"
+    // 3. if your target version is 5.3.4 or 5.5.0, ignore the rule 2
     "unity_version": "5.5.0"
 }
