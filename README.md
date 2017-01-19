@@ -6,7 +6,7 @@ UnityShaderST3 aim at improving the experience of reading and writing Unity Shad
 - Code Completions
 - Goto Definition
 
-[syntax_highligt_preview](misc/syntax_highligt_preview.png)
+<img src="misc/syntax_highligt_preview.png" width = "450" alt="syntax_highligt_preview" align=center />
 
 ## Features
 - Comprehensive syntax highlight rules for .shader and .cginc files
