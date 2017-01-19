@@ -1,5 +1,5 @@
 # UnityShaderST3
-UnityShaderST3 turns your Sublime Text 3 into a perceptive UnityShader Editor/Semi-IDE, followed the lastest Unity Release.
+UnityShaderST3 turns your Sublime Text 3 into a perceptive UnityShader Editor/Semi-IDE, followed the lastest Unity release.
 
 UnityShaderST3 aim at improving the experience of reading and writing Unity Shader by provide three main functions. 
 - Syntax Highligt
