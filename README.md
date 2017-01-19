@@ -6,6 +6,8 @@ UnityShaderST3 aim at improving the experience of reading and writing Unity Shad
 - Code Completions
 - Goto Definition
 
+[syntax_highligt_preview](misc/syntax_highligt_preview.png)
+
 ## Features
 - Comprehensive syntax highlight rules for .shader and .cginc files
 - Provides a wide source of word hints for code completions, such as keywords, cg functions and Unity3D built-in marcos/variables/functions etc
