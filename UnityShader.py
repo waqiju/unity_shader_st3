@@ -71,9 +71,9 @@ class ShaderGotoDefinitionCommand(sublime_plugin.TextCommand):
 def loadSymbolList():
     symbolMap.clear()
 
-    f = open(symbalMapFile, 'r')
-    symbolList = json.load(f, object_hook=Symbol.json2Symbol)
-
+    with open(symbalMapFile, 'r') as f:
+        symbolList = json.load(f, object_hook=Symbol.json2Symbol)
+        
     for i in symbolList:
         name = i.name
         if not symbolMap.get(name):
