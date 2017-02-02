@@ -6,7 +6,6 @@ except ImportError:
     from .common import pluginRootPath
 
 def get():
-    print(pluginRootPath)
     configFile = os.path.join(pluginRootPath, ".localconfig")
     if not os.path.exists(configFile):
         return {}
