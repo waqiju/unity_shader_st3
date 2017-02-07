@@ -16,6 +16,14 @@ UnityShaderST3 aim at improving the experience of reading and writing Unity Shad
 - Keep pace with the lastest version of both Sublime Text(3.X) and Unity3D(5.X)
 
 ## Installtion
+**Easy Install (Recommend)**
+
+Search on Package Control by ```Unity Shader``` and install.
+
+https://packagecontrol.io/packages/Unity%20Shader
+
+**Manual Install**
+
 1. Download the project as zip
 2. Unzip the zip file, rename the folder as UnityShader and move it to sublime text's package folder (Menu->Preferences->Browse Packages)
 
@@ -24,7 +32,7 @@ UnityShaderST3 aim at improving the experience of reading and writing Unity Shad
 - Code completion is working in global scope. Sometimes, it became a little verbose.
 
 ## Thanks
-At the beginning, [cjsjy123 / Unity-Shader](https://github.com/cjsjy123/Unity-Shader) give me a lot inspirations and a example of Sublime Text 3 plugin.
+At the beginning, [cjsjy123 / Unity-Shader](https://github.com/cjsjy123/Unity-Shader) give me a lot inspirations and a example of Sublime Text plugin.
 
 ------------
 In the final, the project is developing. If you discover any mistake, please do not hesitate to tell me.
