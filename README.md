@@ -18,7 +18,7 @@ UnityShaderST3 aim at improving the experience of reading and writing Unity Shad
 ## Installtion
 **Easy Install (Recommend)**
 
-Search on Package Control by ```Unity Shader``` and install.
+Search on Sublime Package Control by ```Unity Shader``` and install.
 
 https://packagecontrol.io/packages/Unity%20Shader
 
