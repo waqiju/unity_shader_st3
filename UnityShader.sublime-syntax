@@ -5,6 +5,9 @@ file_extensions: [shader, cginc]
 first_line_match: Shader[\s]+\"[^\"]*\"[\s]*({[\s]*)?
 scope: source.shader
 
+variables:
+  subshader_state_identifier: 'Category|SeparateSpecular|Fog|Material|ColorMaterial|Name|UsePass|Tags|LOD|Cull|Blend|AlphaTest|ColorMask|Lighting|ZTest|ZWrite|BindChannels|Pass|return|ENDCG|Stencil'
+
 contexts:
   global:
     # comment
@@ -40,19 +43,11 @@ contexts:
       push:
         - match: "{"
           set: subshader
-    # for *.cginc
-    - match: (?=(#)[\s]*(pragma|include|ifdef|ifndef|if|elif|else|endif|define))
-      push: unityshader-cg.sublime-syntax
-    - match: CGINCLUDE
-      push: unityshader-cg.sublime-syntax
-      scope: keyword.control.shader
-      with_prototype:
-        - match: (?=ENDCG)
-          pop: true
+    - include: cg_include
 
   properties:
     # ShaderLab Variables Type
-    - meta_scope: debug.properties.shader
+    - meta_scope: meta.block.properties.shader
     - match: \b(Color|Vector|Range|Int|Float|2D|Cube|3D)\b
       scope: storage.type.shader
     - match: "{"
@@ -61,16 +56,19 @@ contexts:
       pop: true
 
   subshader:
-    - meta_scope: debug.subshader.shader
-    - match: \b(Category|SeparateSpecular|Fog|Material|ColorMaterial|Name|UsePass|Tags|LOD|Cull|Blend|AlphaTest|ColorMask|Lighting|ZTest|ZWrite|BindChannels|Pass|return|ENDCG)\b
+    - meta_scope: meta.block.subshader.shader
+    - match: \b{{subshader_state_identifier}}\b
       scope: keyword.control.shader
+    - include: cg_include
+    - match: "{"
+      push: subshader
+    - match: "}"
+      pop: true
+
+  cg_include:
     - match: CGPROGRAM|CGINCLUDE
       scope: keyword.control.shader
       push: unityshader-cg.sublime-syntax
       with_prototype:
         - match: (?=ENDCG)
           pop: true
-    - match: "{"
-      push: subshader
-    - match: "}"
-      pop: true
