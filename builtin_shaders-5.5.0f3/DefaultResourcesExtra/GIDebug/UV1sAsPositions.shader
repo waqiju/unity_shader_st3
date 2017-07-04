@@ -1,4 +1,4 @@
-﻿Shader "Hidden/GIDebug/UV1sAsPositions" {
+Shader "Hidden/GIDebug/UV1sAsPositions" {
 Properties {
 	_Color ("Main Color", Color) = (1,1,1,1)
 }

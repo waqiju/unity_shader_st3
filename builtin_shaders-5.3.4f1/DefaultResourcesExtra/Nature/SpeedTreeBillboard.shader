@@ -1,4 +1,4 @@
-﻿Shader "Nature/SpeedTree Billboard"
+Shader "Nature/SpeedTree Billboard"
 {
 	Properties
 	{

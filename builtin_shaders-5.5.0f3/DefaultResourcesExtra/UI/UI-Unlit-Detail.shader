@@ -1,4 +1,4 @@
-﻿Shader "UI/Unlit/Detail"
+Shader "UI/Unlit/Detail"
 {
 	Properties
 	{

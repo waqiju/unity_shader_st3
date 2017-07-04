@@ -1,4 +1,4 @@
-﻿Shader "Hidden/GIDebug/VertexColors" {
+Shader "Hidden/GIDebug/VertexColors" {
 	Properties {
 		_MainTex ("Base (RGB)", 2D) = "white" {}
 	}

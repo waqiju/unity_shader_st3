@@ -1,4 +1,4 @@
-﻿Shader "Hidden/CubeBlur" {
+Shader "Hidden/CubeBlur" {
 	Properties {
 		_MainTex ("Main", CUBE) = "" {}
 		_Texel ("Texel", Float) = 0.0078125

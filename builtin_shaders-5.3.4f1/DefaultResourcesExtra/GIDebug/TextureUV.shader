@@ -1,4 +1,4 @@
-﻿Shader "Hidden/GIDebug/TextureUV" {
+Shader "Hidden/GIDebug/TextureUV" {
 	Properties {
 		_MainTex ("Base (RGB)", 2D) = "white" {}
 	}
