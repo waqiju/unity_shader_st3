@@ -1,5 +1,6 @@
 [
     {"caption": "-", "id": "shader_start"},
+    {"command": "shader_auto_format", "caption": "Shader Auto Format"},
     {"command": "shader_goto_definition", "caption": "Shader Goto Definition"},
     {"caption": "-", "id": "shader_end"},
 ]

@@ -38,36 +38,6 @@ def plugin_unloaded():
     settings.clear_on_change("on_settings_changed")
 
 
-# shader_goto_definition
-class ShaderGotoDefinitionCommand(sublime_plugin.TextCommand):
-    def run(self, edit):
-        selectText = self.view.substr(self.view.sel()[0])
-        if len(selectText) == 0:
-            selectText = self.view.substr(self.view.word(self.view.sel()[0]))
-
-        if symbolMap.get(selectText):
-            self.gotoDefinition(symbolMap[selectText])
-        else:
-            sublime.status_message(
-                "Can not find definition '%s'" % (selectText))
-
-    def gotoDefinition(self, symbol):
-        print(pluginRootPath, symbol.path)
-        path = os.path.join(pluginRootPath, symbol.path +
-                            ":" + str(symbol.pos[0]))
-        print(path)
-        definitionView = self.view.window().open_file(path, sublime.ENCODED_POSITION)
-        definitionView.set_read_only(True)
-
-    def is_enabled(self):
-        filename = self.view.file_name()
-        ext = os.path.splitext(filename)[1][1:]
-        return ext == "shader" or ext == "cginc"
-
-    def is_visible(self):
-        return self.is_enabled()
-
-
 def loadSymbolList():
     symbolMap.clear()
 
@@ -110,3 +80,56 @@ def _modifyLocalConfigVersion(version):
     d = config.get()
     d["unity_version"] = version
     config.save(d)
+
+
+# shader_auto_format
+class ShaderAutoFormatCommand(sublime_plugin.TextCommand):
+    def run(self, edit):
+        from .vendor.beautify_unity_shader.app import parser
+        from .vendor.beautify_unity_shader.app.extension.formatter import Formatter
+
+        region = sublime.Region(0, self.view.size())
+        codeText = self.view.substr(region)
+        ast, tokens = parser.analyzeCodeText(codeText)
+        formattedText = Formatter(tokens, ast).toCode()
+
+        self.view.erase(edit, region)
+        self.view.insert(edit, 0, formattedText)
+
+    def is_enabled(self):
+        filename = self.view.file_name()
+        ext = os.path.splitext(filename)[1]
+        return ext == ".shader"
+
+    def is_visible(self):
+        return self.is_enabled()
+
+
+# shader_goto_definition
+class ShaderGotoDefinitionCommand(sublime_plugin.TextCommand):
+    def run(self, edit):
+        selectText = self.view.substr(self.view.sel()[0])
+        if len(selectText) == 0:
+            selectText = self.view.substr(self.view.word(self.view.sel()[0]))
+
+        if symbolMap.get(selectText):
+            self.gotoDefinition(symbolMap[selectText])
+        else:
+            sublime.status_message(
+                "Can not find definition '%s'" % (selectText))
+
+    def gotoDefinition(self, symbol):
+        print(pluginRootPath, symbol.path)
+        path = os.path.join(pluginRootPath, symbol.path +
+                            ":" + str(symbol.pos[0]))
+        print(path)
+        definitionView = self.view.window().open_file(path, sublime.ENCODED_POSITION)
+        definitionView.set_read_only(True)
+
+    def is_enabled(self):
+        filename = self.view.file_name()
+        ext = os.path.splitext(filename)[1]
+        return ext == ".shader" or ext == ".cginc"
+
+    def is_visible(self):
+        return self.is_enabled()
