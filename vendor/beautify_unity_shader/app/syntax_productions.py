@@ -1,6 +1,6 @@
-from app.syntax_nonterminal import Nonterminal
-from app.syntax_production import Production
-from app.lex_tokens import TokenType as T
+from .syntax_nonterminal import Nonterminal
+from .syntax_production import Production
+from .lex_tokens import TokenType as T
 from .syntax_nonterminals import NonterminalType as N
 import unittest
 

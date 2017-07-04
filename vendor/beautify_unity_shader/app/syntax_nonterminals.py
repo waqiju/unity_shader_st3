@@ -1,5 +1,5 @@
-from app.symbol_type import SymbolType
-from app.syntax_nonterminal import Nonterminal
+from .symbol_type import SymbolType
+from .syntax_nonterminal import Nonterminal
 import unittest
 
 

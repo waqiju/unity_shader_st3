@@ -1,5 +1,4 @@
 import unittest
-import enum
 
 r''' 定制SymbolType，实现如下目标：
 1. TokenType.ID，用.的写法来表示Enum，

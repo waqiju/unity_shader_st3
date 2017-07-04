@@ -7,7 +7,7 @@ rules = (
 
 
 def applyTo(edges):
-    from app.symbol_type import SymbolType
+    from .symbol_type import SymbolType
 
     for i, _ in enumerate(edges):
         for ty in SymbolType:

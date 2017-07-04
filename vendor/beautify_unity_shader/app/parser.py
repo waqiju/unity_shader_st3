@@ -75,7 +75,7 @@ class Test(unittest.TestCase):
             inputText = f.read()
         ast, tokens = analyzeCodeText(inputText)
 
-        from app.extension.formatter import Formatter
+        from .extension.formatter import Formatter
         formatter = Formatter(tokens, ast)
         outputFile = os.path.abspath(os.path.join(__file__, '../output/4_formatted_code.shader'))
         with open(outputFile, 'w') as f:
