@@ -90,11 +90,20 @@ class ShaderAutoFormatCommand(sublime_plugin.TextCommand):
 
         region = sublime.Region(0, self.view.size())
         codeText = self.view.substr(region)
-        ast, tokens = parser.analyzeCodeText(codeText)
+        try:
+            ast, tokens = parser.analyzeCodeText(codeText)
+        except Exception as error:
+            sublime.message_dialog(
+                "Sorry, format failed...  o_o\n\n"
+                "Please make sure the code is grammatical correct. Or welcome to give feedback by issue (https://github.com/waqiju/unity_shader_st3/issues).")
+            raise error
+
         formattedText = Formatter(tokens, ast).toCode()
 
         self.view.erase(edit, region)
         self.view.insert(edit, 0, formattedText)
+        # Success Tips
+        sublime.status_message('Format Success!')
 
     def is_enabled(self):
         filename = self.view.file_name()
