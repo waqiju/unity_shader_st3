@@ -43,7 +43,7 @@ def loadSymbolList():
 
     with open(symbalMapFile, 'r') as f:
         symbolList = json.load(f, object_hook=Symbol.json2Symbol)
-        
+
     for i in symbolList:
         name = i.name
         if not symbolMap.get(name):
@@ -84,6 +84,7 @@ def _modifyLocalConfigVersion(version):
 
 # shader_auto_format
 class ShaderAutoFormatCommand(sublime_plugin.TextCommand):
+
     def run(self, edit):
         from .vendor.beautify_unity_shader.app import parser
         from .vendor.beautify_unity_shader.app.extension.formatter import Formatter
@@ -116,6 +117,7 @@ class ShaderAutoFormatCommand(sublime_plugin.TextCommand):
 
 # shader_goto_definition
 class ShaderGotoDefinitionCommand(sublime_plugin.TextCommand):
+
     def run(self, edit):
         selectText = self.view.substr(self.view.sel()[0])
         if len(selectText) == 0:
@@ -142,3 +144,17 @@ class ShaderGotoDefinitionCommand(sublime_plugin.TextCommand):
 
     def is_visible(self):
         return self.is_enabled()
+
+
+class UnityShaderCompletionsQuerier(sublime_plugin.EventListener):
+
+    def on_query_completions(self, view, prefix, locations):
+        if not self.isShaderFile(view):
+            return
+
+        completionsInBuffer = [(word + '\tcontext', word) for word in view.extract_completions(prefix)]
+        return completionsInBuffer
+
+    @staticmethod
+    def isShaderFile(view):
+        return os.path.splitext(view.file_name())[1] == '.shader'
