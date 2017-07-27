@@ -2,6 +2,7 @@ import sublime
 import sublime_plugin
 import os
 import json
+import re
 from .scripts import config
 from .scripts import symbol_list
 from .scripts.symbol_list import Symbol
@@ -146,15 +147,55 @@ class ShaderGotoDefinitionCommand(sublime_plugin.TextCommand):
         return self.is_enabled()
 
 
+class CompletionInfo:
+
+    def __init__(self, word, location):
+        self.word = word
+        self.location = location
+
+
 class UnityShaderCompletionsQuerier(sublime_plugin.EventListener):
 
     def on_query_completions(self, view, prefix, locations):
         if not self.isShaderFile(view):
             return
 
-        completionsInBuffer = [(word + '\tcontext', word) for word in view.extract_completions(prefix)]
-        return completionsInBuffer
+        # Abandon use extract_completions(). Cause it get unexpect result in some case, such as 'var1*var2; #include'
+        # Anohter reason is that it not introduce in lastest offical document @170726, maybe obsolete in futrue. 
+        # wordsInBuffer = view.extract_completions(prefix)
+        # completionsInBuffer = [(word + '\tcontext', word) for word in wordsInBuffer]
+
+        completionsInBuffer = self.extract_completions(view, prefix, locations)
+        return (completionsInBuffer, sublime.INHIBIT_WORD_COMPLETIONS)
 
     @staticmethod
     def isShaderFile(view):
         return os.path.splitext(view.file_name())[1] == '.shader'
+
+    @staticmethod
+    def extract_completions(view, prefix, locations):
+        # retrieve words and regions
+        wordsInBuffer = []
+        wordsRegions = view.find_all(r'\b' + re.escape(prefix) + r'\w+\b', 0, '$0', wordsInBuffer)
+
+        # dump them to completionInfos
+        completionInfos = []
+        for i, word in enumerate(wordsInBuffer):
+            location = (wordsRegions[i].a + wordsRegions[i].b) / 2
+            completionInfos.append(CompletionInfo(word, location))
+
+        # sort and deduplicate
+        firstEditLocation = locations[0]
+        completionInfos.sort(key=lambda info: abs(info.location - firstEditLocation))
+
+        wordSet = set()
+        def isDuplicate(info):
+            if info.word not in wordSet:
+                wordSet.add(info.word)
+                return True
+            else:
+                return False
+        completionInfos = list(filter(isDuplicate, completionInfos))
+
+        completionsInBuffer = [(completionInfo.word + '\tcontext', completionInfo.word) for completionInfo in completionInfos]
+        return completionsInBuffer
