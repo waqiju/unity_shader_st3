@@ -1,28 +1,46 @@
 # UnityShaderST3
 
-UnityShaderST3 turns your Sublime Text 3 into a perceptive UnityShader Editor/Semi-IDE, followed the lastest Unity release.
+A sublime text plugin which aim at boosting happiness when editing Unity Shader, behaved as IDE-like, followed the lastest Unity release.
 
-UnityShaderST3 aim at improving the experience of reading and writing Unity Shader by provide three main functions. 
+中文说明移步 >> [README_CH.md](doc/README_CH.md)   There is a README.md copied in Chinese.
+
+
+## Main Functions
 
 - Syntax Highligt
+
 - Code Completions
+
+- Code Format ( achieved by a parser speci for .shader grammer, see [beautify_unity_shader](https://github.com/waqiju/beautify_unity_shader) )
+
 - Goto Definition
 
-new at 170704, Auto Format has added. And a parser for shader syntax has introduced, it make possible for developing more exciting feature in the future.
 
-<img src="doc/syntax_highligt_preview.png" width = "450" alt="syntax_highligt_preview" align=center />
+## Preview
+
+<div>
+    <img src="doc/syntax_highligt_preview.png" height="460" alt="syntax_highligt_preview"  />
+    <img src="doc/code_format_preview.gif" height="460" alt="code_format_preview" />
+</div>
 
 ## Features
 
 - Comprehensive syntax highlight rules for .shader and .cginc files
-- Provides a wide source of word hints for code completions, such as keywords, cg functions and Unity3D built-in marcos/variables/functions etc
+
+- Plentiful words for code completions, such as keywords, cg functions and Unity3D built-in marcos/variables/functions etc
+
 - Alterable Unity3D version in response to incompatibility among different Unity3D releases. For Detail, please see Menu->Peferences->Package Settings->Unity Shader->Setting - Default
+
+- Scour and clean your source code in a accurate way
+
 - Goto definition for built-in marcos/variables/functions
+
 - Keep pace with the lastest version of both Sublime Text(3.X) and Unity3D(5.X)
+
 
 ## Installtion
 
-**Easy Install (Recommend)**
+**By Package Control (Recommend)**
 
 Search on Sublime Package Control by ```Unity Shader``` and install.
 
@@ -31,15 +49,15 @@ https://packagecontrol.io/packages/Unity%20Shader
 **Manual Install**
 
 1. Download the project as zip
+
 2. Unzip the zip file, rename the folder as UnityShader and move it to sublime text's package folder (Menu->Preferences->Browse Packages)
 
-## Flaws
-- Lacking of testing in MacOS platform. Since I rarely used to working in MacOS platform. But it's welcome for your feedback.
-- Code completion is working in global scope. Sometimes, it became a little verbose.
 
-## Thanks
+## Issue
+
+If you discover any mistake or inspire any better idea, welcome to feedback at [Github Issue](https://github.com/waqiju/unity_shader_st3/issues). 
+
+
+## Credit
 
 At the beginning, [cjsjy123 / Unity-Shader](https://github.com/cjsjy123/Unity-Shader) give me a lot inspirations and a example of Sublime Text plugin.
-
-------------
-In the final, the project is developing. If you discover any mistake, please do not hesitate to tell me.

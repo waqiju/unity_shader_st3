@@ -16,9 +16,10 @@ UnityShaderST3是一款旨在提升编辑UnityShader时幸福指数的SublimeTex
 
 ## 预览
 
-<img src="doc/syntax_highligt_preview.png" width = "450" alt="syntax_highligt_preview" align=center />
-
-<img src="doc/code_format_preview.gif" width = "450" alt="syntax_highligt_preview" align=center />
+<div>
+    <img src="syntax_highligt_preview.png" height="460" alt="syntax_highligt_preview"  />
+    <img src="code_format_preview.gif" height="460" alt="code_format_preview" />
+</div>
 
 ## 特性
 
