@@ -10,7 +10,7 @@ UnityShaderST3 aim at improving the experience of reading and writing Unity Shad
 
 new at 170704, Auto Format has added. And a parser for shader syntax has introduced, it make possible for developing more exciting feature in the future.
 
-<img src="misc/syntax_highligt_preview.png" width = "450" alt="syntax_highligt_preview" align=center />
+<img src="doc/syntax_highligt_preview.png" width = "450" alt="syntax_highligt_preview" align=center />
 
 ## Features
 
