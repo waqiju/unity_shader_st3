@@ -1,0 +1,29 @@
+Welcome to UnityShaderST3, the Unity Shader plugin for Sublime Text!
+
+UnityShaderST3 aim at boosting happiness when editing Unity Shader,
+behaved as IDE-like, followed the lastest Unity release.
+
+It provides four main functions:
+
+- Syntax Highligt
+
+- Code Completions
+
+- Code Format
+
+- Goto Definition
+
+
+Details about this package and its feature can be found on its GitHub
+repository at:
+
+        https://github.com/waqiju/unity_shader_st3
+ 
+
+We hope you enjoy using this plugin, and look forward to hearing any feedback,
+bugs, or suggestions you have on the GitHub repo above.
+
+
+If you like it or just want to encourage the author, please star it on Github! :) 
+
+Thanks!

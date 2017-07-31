@@ -1,0 +1,31 @@
+UnityShaderST3 v0.3.3
+===============
+
+Welcome to UnityShaderST3 v0.3.3, what's new?
+
+## Add
+
+  - code format
+
+## Fixes
+
+  - fix word-completions disappear, thanks to songtm
+
+  - fix some missing keyword for code highlight 
+
+
+
+
+Details about this package and its feature can be found on its GitHub
+repository at:
+
+        https://github.com/waqiju/unity_shader_st3
+ 
+
+We hope you enjoy using this plugin, and look forward to hearing any feedback,
+bugs, or suggestions you have on the GitHub repo above.
+
+
+If you like it or just want to encourage the author, please star it on Github! :) 
+
+Thanks!
