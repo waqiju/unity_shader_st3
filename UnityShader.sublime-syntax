@@ -6,7 +6,7 @@ first_line_match: Shader[\s]+\"[^\"]*\"[\s]*({[\s]*)?
 scope: source.shader
 
 variables:
-  subshader_state_identifier: 'Category|SeparateSpecular|Fog|Material|ColorMaterial|Name|UsePass|Tags|LOD|Cull|Blend|AlphaTest|ColorMask|Lighting|ZTest|ZWrite|BindChannels|Pass|return|ENDCG|Stencil'
+  subshader_state_identifier: 'Category|SeparateSpecular|Fog|Material|ColorMaterial|Name|UsePass|Tags|LOD|Cull|Blend|AlphaTest|AlphaToMask|ColorMask|Lighting|ZTest|ZWrite|BindChannels|Pass|GrabPass|return|Stencil|SetTexture|Offset|ENDCG'
 
 contexts:
   global:
@@ -31,14 +31,14 @@ contexts:
     - include: global
 
   main:
-    - match: \b(Shader|FallBack|Fallback|CustomEditor|ENDCG)\b
+    - match: \b(Shader|FallBack|Fallback|CustomEditor|Dependency|ENDCG)\b
       scope: keyword.control.shader
     - match: \b(Properties)\b
       scope: keyword.control.shader
       push:
         - match: "{"
           set: properties
-    - match: \b(SubShader)\b
+    - match: \b(SubShader|Category)\b
       scope: keyword.control.shader
       push:
         - match: "{"
