@@ -1,7 +1,7 @@
-UnityShaderST3 v0.3.3
+UnityShaderST3 v0.3.4
 ===============
 
-Welcome to UnityShaderST3 v0.3.3, what's new?
+Welcome to UnityShaderST3 v0.3.4, what's new?
 
 ## Fixes
 
