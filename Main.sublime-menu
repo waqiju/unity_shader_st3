@@ -17,18 +17,18 @@
                         [
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/UnityShader/README.md"},
+                                "args": {"file": "${packages}/Unity Shader/README.md"},
                                 "caption": "README"
                             },
                             { "caption": "-" },
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/UnityShader/UnityShader.sublime-settings"},
+                                "args": {"file": "${packages}/Unity Shader/UnityShader.sublime-settings"},
                                 "caption": "Setting - Default"
                             },
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/User/UnityShader.sublime-settings"},
+                                "args": {"file": "${packages}/User/Unity Shader.sublime-settings"},
                                 "caption": "Setting - User"
                             }
                         ]
