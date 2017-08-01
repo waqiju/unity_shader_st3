@@ -131,10 +131,9 @@ class ShaderGotoDefinitionCommand(sublime_plugin.TextCommand):
                 "Can not find definition '%s'" % (selectText))
 
     def gotoDefinition(self, symbol):
-        print(pluginRootPath, symbol.path)
+        # print(pluginRootPath, symbol.path)
         path = os.path.join(pluginRootPath, symbol.path +
                             ":" + str(symbol.pos[0]))
-        print(path)
         definitionView = self.view.window().open_file(path, sublime.ENCODED_POSITION)
         definitionView.set_read_only(True)
 
@@ -161,7 +160,7 @@ class UnityShaderCompletionsQuerier(sublime_plugin.EventListener):
             return
 
         # Abandon use extract_completions(). Cause it get unexpect result in some case, such as 'var1*var2; #include'
-        # Anohter reason is that it not introduce in lastest offical document @170726, maybe obsolete in futrue. 
+        # Anohter reason is that it not introduce in lastest offical document @170726, maybe obsolete in futrue.
         # wordsInBuffer = view.extract_completions(prefix)
         # completionsInBuffer = [(word + '\tcontext', word) for word in wordsInBuffer]
 

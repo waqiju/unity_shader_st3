@@ -6,6 +6,7 @@ try:
 except:
     from .common import pluginRootPath
 
+
 class Symbol(object):
     def __init__(self, name = "", type = "", path = "", pos = (0,0)):
         self.name = name
@@ -27,12 +28,13 @@ def generateSymbolList(beginPath):
     generateDefineList(symbolList)
     generateVariableList(symbolList)
 
-    f = open(r'../builtin_shader.symbol', 'w')
-    # json.dump(symbolList, f, default=lambda obj: obj.__dict__)
+    f = open(os.path.join(pluginRootPath, 'builtin_shader.symbol'), 'w')
     json.dump(symbolList, f, default=lambda obj: obj.__dict__, indent = 4)
     f.close()
 
+
 def generateFunctionList(symbolList):
+    print(root)
     for path, folders, files in os.walk(root):
         for filename in files:
             f = open(os.path.join(root, filename))
@@ -73,6 +75,7 @@ def generateDefineList(symbolList):
                 pos = (lineNo, columnNo)
                 symbolList.append(Symbol(name, "builtin-marco", path, pos))
 
+
 def generateVariableList(symbolList):
     for path, folders, files in os.walk(root):
         for filename in files:
@@ -108,6 +111,7 @@ def generateVariableList(symbolList):
                 else:
                     pass
 
+
 def _skipToBracketEnd(lineMatchIter, lineBuf, bracket):
     while (True):
         if re.search(bracket, lineBuf):
@@ -121,12 +125,14 @@ def _skipToBracketEnd(lineMatchIter, lineBuf, bracket):
 
         lineBuf = next(lineMatchIter).group(0)
 
+
 def _fillVariableRecord(symbolList, name, root, filename, lineNo, lineMatch):
     path = os.path.join(root, filename)
     path = path.replace(pluginRootPath+"\\", "")
     columnNo = re.search(name, lineMatch.group(0)).start()
     pos = (lineNo, columnNo)
     symbolList.append(Symbol(name, "builtin-variable", path, pos))
+
 
 def printSymbolList():
     f = open(r'../builtin_shader.symbol', 'r')
@@ -137,6 +143,7 @@ def printSymbolList():
     for i in symbolList:
         f.write("%s,\t%s,\t%s,\t%s\n" % (i.name, i.type, i.path, i.pos))
     f.close()
+
 
 def generateCompletesFile():
     symbolFile = os.path.join(pluginRootPath, 'builtin_shader.symbol')
@@ -175,6 +182,7 @@ def generateCompletesFile():
 ''')
 
     f.close()
+
 
 if __name__ == "__main__":
     root = r"C:\Users\Administrator\AppData\Roaming\Sublime Text 3\Packages\UnityShader\builtin_shaders-5.3.4f1\CGIncludes"
