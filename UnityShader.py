@@ -169,7 +169,8 @@ class UnityShaderCompletionsQuerier(sublime_plugin.EventListener):
 
     @staticmethod
     def isShaderFile(view):
-        return os.path.splitext(view.file_name())[1] == '.shader'
+        file_name = view.file_name()
+        return file_name is not None and file_name.endswith('.shader')
 
     @staticmethod
     def extract_completions(view, prefix, locations):
