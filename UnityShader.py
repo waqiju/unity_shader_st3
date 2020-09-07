@@ -14,7 +14,7 @@ symbolMap = {}
 
 
 def init():
-    settings = sublime.load_settings("UnityShader.sublime-settings")
+    settings = sublime.load_settings("Unity Shader.sublime-settings")
     listener = SettingsListener(settings)
     listener.add("unity_version", onUnityVersionChanged)
     settings.add_on_change("on_settings_changed", listener.onChanged)
@@ -35,7 +35,7 @@ def plugin_loaded():
 
 
 def plugin_unloaded():
-    settings = sublime.load_settings("UnityShader.sublime-settings")
+    settings = sublime.load_settings("Unity Shader.sublime-settings")
     settings.clear_on_change("on_settings_changed")
 
 
@@ -52,14 +52,14 @@ def loadSymbolList():
 
 
 def _isUnityVersionConsistent():
-    settings = sublime.load_settings("UnityShader.sublime-settings")
+    settings = sublime.load_settings("Unity Shader.sublime-settings")
     targetVersion = settings.get("unity_version", "0.0.0")
-    workingVersion = config.get().get("unity_version", "0.0.0")
+    workingVersion = config.load().get("unity_version", "0.0.0")
     return targetVersion == workingVersion
 
 
 def _generateSymbolAndCompletions():
-    settings = sublime.load_settings("UnityShader.sublime-settings")
+    settings = sublime.load_settings("Unity Shader.sublime-settings")
     targetVersion = settings.get("unity_version", "0.0.0")
     candidates = list(filter(lambda x: targetVersion in x,
                              os.listdir(pluginRootPath)))
@@ -78,7 +78,7 @@ def _generateSymbolAndCompletions():
 
 
 def _modifyLocalConfigVersion(version):
-    d = config.get()
+    d = config.load()
     d["unity_version"] = version
     config.save(d)
 

@@ -3,14 +3,15 @@ import re
 import json
 try:
     from common import pluginRootPath
-except:
+except ImportError:
     from .common import pluginRootPath
 
 
 class Symbol(object):
-    def __init__(self, name = "", type = "", path = "", pos = (0,0)):
+
+    def __init__(self, name="", type="", path="", pos=(0, 0)):
         self.name = name
-        self.type = type;
+        self.type = type
         self.path = path
         self.pos = pos
 
@@ -18,8 +19,11 @@ class Symbol(object):
     def json2Symbol(d):
         return Symbol(d['name'], d['type'], d['path'], d['pos'])
 
+
 # builtin_shader root path
 root = ""
+
+
 def generateSymbolList(beginPath):
     global root
     root = beginPath
@@ -27,31 +31,32 @@ def generateSymbolList(beginPath):
     generateFunctionList(symbolList)
     generateDefineList(symbolList)
     generateVariableList(symbolList)
+    # replace '\' to '/'
+    for symbol in symbolList:
+        symbol.path = symbol.path.replace('\\', '/')
 
     f = open(os.path.join(pluginRootPath, 'builtin_shader.symbol'), 'w')
-    json.dump(symbolList, f, default=lambda obj: obj.__dict__, indent = 4)
+    json.dump(symbolList, f, default=lambda obj: obj.__dict__, indent=4)
     f.close()
 
 
 def generateFunctionList(symbolList):
-    print(root)
     for path, folders, files in os.walk(root):
         for filename in files:
-            f = open(os.path.join(root, filename))
-            buf = f.read()
-            f.close()
+            fullPath = os.path.join(path, filename)
+            with open(fullPath) as f:
+                buf = f.read()
 
             functionIter = re.finditer(r"^(inline[ \t]+)?[ \t]*[\w]+[ \t]+(\w+)[ \t]*\((([ \t]*(\w+[ \t]+)?\w+[ \t]+\w)|([ \t]*\n)|([ \t]*\)))",
-                buf, re.M)
+                                       buf, re.M)
             for i in functionIter:
                 # todo, path截短
                 name = i.group(2)
-                path = os.path.join(root, filename)
-                path = path.replace(pluginRootPath+"\\", "")
+                relativePath = fullPath.replace(pluginRootPath, "")
                 lineNo = len(re.findall(r".*\n", buf[0:i.start()])) + 1
                 columnNo = re.search(i.group(2), i.group(0)).start()
                 pos = (lineNo, columnNo)
-                symbolList.append(Symbol(name, "builtin-function", path, pos))
+                symbolList.append(Symbol(name, "builtin-function", relativePath, pos))
 
 
 def generateDefineList(symbolList):
@@ -61,53 +66,52 @@ def generateDefineList(symbolList):
             if filename == "HLSLSupport.cginc":
                 continue
 
-            f = open(os.path.join(root, filename))
-            buf = f.read()
-            f.close()
+            fullPath = os.path.join(path, filename)
+            with open(fullPath) as f:
+                buf = f.read()
 
             functionIter = re.finditer(r"^[\s]*#define[\s]+(\w+)\b(?!\s*\n)", buf, re.M)
             for i in functionIter:
                 name = i.group(1)
-                path = os.path.join(root, filename)
-                path = path.replace(pluginRootPath+"\\", "")
+                relativePath = fullPath.replace(pluginRootPath, "")
                 lineNo = len(re.findall(r".*\n", buf[0:i.start()])) + 1
                 columnNo = re.search(i.group(1), i.group(0)).start()
                 pos = (lineNo, columnNo)
-                symbolList.append(Symbol(name, "builtin-marco", path, pos))
+                symbolList.append(Symbol(name, "builtin-marco", relativePath, pos))
 
 
 def generateVariableList(symbolList):
     for path, folders, files in os.walk(root):
         for filename in files:
 
-            if not filename in ["UnityShaderVariables.cginc", "UnityLightingCommon.cginc", "Lighting.cginc", "AutoLight.cginc"]:
+            if filename not in ["UnityShaderVariables.cginc", "UnityLightingCommon.cginc", "Lighting.cginc", "AutoLight.cginc"]:
                 continue
 
-            f = open(os.path.join(root, filename))
-            buf = f.read()
-            f.close()
+            fullPath = os.path.join(path, filename)
+            with open(fullPath) as f:
+                buf = f.read()
 
             variablePattern = r"(uniform[\s]*)?(((float|half|fixed)([2-4](x[2-4])?)?)|sampler(CUBE|[23]D))[\s]*([\w]*)(\[\d*\])?\s*;"
-            # sometimes, define statement can break above rule 
+            # sometimes, define statement can break above rule
             variablePattern2 = r"(uniform[\s]*)(\w+)[\s]*([\w]*)(\[\d*\])?\s*;"
 
             lineMatchIter = re.finditer(".*\n", buf)
             for index, line in enumerate(lineMatchIter):
                 lineBuf = line.group()
-                if re.search("\(", lineBuf):
-                    match = re.search("\(", lineBuf)
-                    _skipToBracketEnd(lineMatchIter, lineBuf[match.end():], "\)")
+                if re.search(r"\(", lineBuf):
+                    match = re.search(r"\(", lineBuf)
+                    _skipToBracketEnd(lineMatchIter, lineBuf[match.end():], r"\)")
                 elif re.search("{", lineBuf):
                     match = re.search("{", lineBuf)
                     _skipToBracketEnd(lineMatchIter, lineBuf[match.end():], "}")
                 elif re.search(variablePattern, lineBuf):
                     match = re.search(variablePattern, lineBuf)
                     name = match.group(8)
-                    _fillVariableRecord(symbolList, name, root, filename, index+1, line)
+                    _fillVariableRecord(symbolList, name, fullPath, index + 1, line)
                 elif re.search(variablePattern2, lineBuf):
                     match = re.search(variablePattern2, lineBuf)
                     name = match.group(3)
-                    _fillVariableRecord(symbolList, name, root, filename, index+1, line)
+                    _fillVariableRecord(symbolList, name, fullPath, index + 1, line)
                 else:
                     pass
 
@@ -116,9 +120,9 @@ def _skipToBracketEnd(lineMatchIter, lineBuf, bracket):
     while (True):
         if re.search(bracket, lineBuf):
             return
-        elif re.search("\(", lineBuf):
-            match = re.search("\(", lineBuf)
-            _skipToBracketEnd(lineMatchIter, lineBuf[match.end():], "\)")
+        elif re.search(r"\(", lineBuf):
+            match = re.search(r"\(", lineBuf)
+            _skipToBracketEnd(lineMatchIter, lineBuf[match.end():], r"\)")
         elif re.search("{", lineBuf):
             match = re.search("{", lineBuf)
             _skipToBracketEnd(lineMatchIter, lineBuf[match.end():], "}")
@@ -126,12 +130,11 @@ def _skipToBracketEnd(lineMatchIter, lineBuf, bracket):
         lineBuf = next(lineMatchIter).group(0)
 
 
-def _fillVariableRecord(symbolList, name, root, filename, lineNo, lineMatch):
-    path = os.path.join(root, filename)
-    path = path.replace(pluginRootPath+"\\", "")
+def _fillVariableRecord(symbolList, name, fullPath, lineNo, lineMatch):
+    relativePath = fullPath.replace(pluginRootPath, "")
     columnNo = re.search(name, lineMatch.group(0)).start()
     pos = (lineNo, columnNo)
-    symbolList.append(Symbol(name, "builtin-variable", path, pos))
+    symbolList.append(Symbol(name, "builtin-variable", relativePath, pos))
 
 
 def printSymbolList():
@@ -147,7 +150,7 @@ def printSymbolList():
 
 def generateCompletesFile():
     symbolFile = os.path.join(pluginRootPath, 'builtin_shader.symbol')
-    f = open( symbolFile, 'r')
+    f = open(symbolFile, 'r')
     symbolList = json.load(f, object_hook=Symbol.json2Symbol)
     f.close()
 
@@ -158,7 +161,7 @@ def generateCompletesFile():
     "completions":
     [
 ''')
-    
+
     isExists = set()
     for i in symbolList:
         if i.name in isExists:
@@ -176,7 +179,7 @@ def generateCompletesFile():
             line = '        { "trigger": "%s", "contents": "%s"},\n' % (i.name, i.name)
 
         f.write(line)
-    
+
     f.write(r'''    ]
 }
 ''')
@@ -185,6 +188,6 @@ def generateCompletesFile():
 
 
 if __name__ == "__main__":
-    root = r"C:\Users\Administrator\AppData\Roaming\Sublime Text 3\Packages\UnityShader\builtin_shaders-5.3.4f1\CGIncludes"
+    root = r"D:\91_PortableSoftware\Sublime Text Build 3143 x64 DIY\Data\Packages\Unity Shader\builtin_shaders-5.5.0f3\CGIncludes"
     generateSymbolList(root)
     generateCompletesFile()
