@@ -4,7 +4,7 @@
 name: UnityShader-CG
 file_extensions:
   - cginc
-first_line_match: (?=(#)[\s]*(pragma|include|ifdef|ifndef|if|elif|else|endif|define))
+first_line_match: (?=(#)[\s]*(pragma|include|ifdef|ifndef|if|elif|else|endif|define|version))
 scope: source.c
 
 variables:
