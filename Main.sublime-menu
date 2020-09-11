@@ -28,7 +28,7 @@
                             },
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/User/Unity Shader.sublime-settings"},
+                                "args": {"file": "${packages}/User/UnityShader.sublime-settings"},
                                 "caption": "Setting - User"
                             }
                         ]
