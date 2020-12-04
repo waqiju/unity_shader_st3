@@ -6,7 +6,7 @@ first_line_match: Shader[\s]+\"[^\"]*\"[\s]*({[\s]*)?
 scope: source.shader
 
 variables:
-  subshader_state_identifier: 'Category|SeparateSpecular|Fog|Material|ColorMaterial|Name|UsePass|Tags|LOD|Cull|Blend|AlphaTest|AlphaToMask|ColorMask|Lighting|ZTest|ZWrite|BindChannels|Pass|GrabPass|return|Stencil|SetTexture|Offset|ENDCG'
+  subshader_state_identifier: 'Category|SeparateSpecular|Fog|Material|ColorMaterial|Name|UsePass|Tags|LOD|Cull|Blend|AlphaTest|AlphaToMask|ColorMask|Lighting|ZTest|ZWrite|BindChannels|Pass|GrabPass|return|Stencil|SetTexture|Offset|ENDCG|ENDHLSL'
 
 contexts:
   global:
@@ -31,7 +31,7 @@ contexts:
     - include: global
 
   main:
-    - match: \b(Shader|FallBack|Fallback|CustomEditor|Dependency|ENDCG)\b
+    - match: \b(Shader|FallBack|Fallback|CustomEditor|Dependency|ENDCG|ENDHLSL)\b
       scope: keyword.control.shader
     - match: \b(Properties)\b
       scope: keyword.control.shader
@@ -66,9 +66,9 @@ contexts:
       pop: true
 
   cg_include:
-    - match: CGPROGRAM|CGINCLUDE
+    - match: CGPROGRAM|CGINCLUDE|HLSLPROGRAM|HLSLINCLUDE
       scope: keyword.control.shader
       push: unityshader-cg.sublime-syntax
       with_prototype:
-        - match: (?=ENDCG)
+        - match: (?=(ENDCG|ENDHLSL))
           pop: true
