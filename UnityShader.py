@@ -110,7 +110,7 @@ class ShaderAutoFormatCommand(sublime_plugin.TextCommand):
     def is_enabled(self):
         filename = self.view.file_name()
         ext = os.path.splitext(filename)[1]
-        return ext == ".shader"
+        return ext in (".shader", ".hlsl")
 
     def is_visible(self):
         return self.is_enabled()
@@ -140,7 +140,7 @@ class ShaderGotoDefinitionCommand(sublime_plugin.TextCommand):
     def is_enabled(self):
         filename = self.view.file_name()
         ext = os.path.splitext(filename)[1]
-        return ext == ".shader" or ext == ".cginc"
+        return ext in (".shader", ".cginc", ".hlsl")
 
     def is_visible(self):
         return self.is_enabled()
