@@ -7,7 +7,7 @@ file_extensions:
   - compute
   - hlsl
 first_line_match: (?=(#)[\s]*(pragma|include|ifdef|ifndef|if|elif|else|endif|define|version))
-scope: source.c
+scope: source.cg
 
 variables:
   identifier: '\b[[:alpha:]_][[:alnum:]_]*\b'
